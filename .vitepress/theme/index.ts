@@ -6,23 +6,21 @@ import {
   preferSFC,
   filterHeadersByPreference
 } from './components/preferences'
-// import VueSchoolLink from './components/VueSchoolLink.vue'
-import LanguageSwitcher from './components/LanguageSwitcher.vue'
+import EnrollmentForm from './components/EnrollmentForm.vue'
+import CustomNavTitle from './components/CustomNavTitle.vue'
 
 export default Object.assign({}, VPTheme, {
   Layout: () => {
     // @ts-ignore
     return h(VPTheme.Layout, null, {
-      // 'sidebar-top': () => h(PreferenceSwitch),
-      // 'sidebar-bottom': () => h(SecurityUpdateBtn),
-      // 'aside-mid': () => h(SponsorsAside),
-      'content-top': () => h(LanguageSwitcher)
+      'navbar-title': () => h(CustomNavTitle)
+      // No custom slots needed - language switcher is now in nav
     })
   },
   enhanceApp({ app }: { app: App }) {
     app.provide('prefer-composition', preferComposition)
     app.provide('prefer-sfc', preferSFC)
     app.provide('filter-headers', filterHeadersByPreference)
-    // app.component('TextAd', TextAd)
+    app.component('EnrollmentForm', EnrollmentForm)
   }
 })

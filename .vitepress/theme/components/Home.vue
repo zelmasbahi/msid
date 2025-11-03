@@ -10,18 +10,21 @@ onMounted(load)
 <template>
   <!-- Hero Section -->
   <section id="hero">
-    <!-- <img id="uwu" alt="MSID Online Logo" /> -->
+    <div class="logo-container">
+      <img src="/msid-logo.jpg" alt="MSID Online Logo" class="msid-logo" />
+    </div>
     <h1 class="tagline">
       <span class="title-with-en accent">
         <span class="title-en-inline" dir="ltr">MSID online</span>
-        <span class="main-title">Al-Masjid Online</span>
       </span>
       <br />
       <span class="accent">Fortress of the Muslim Child</span>
     </h1>
-    <p class="description">Your children's refuge abroad to preserve their faith</p>
+    <p class="description">
+      Your children's refuge abroad to preserve their faith
+    </p>
     <p class="actions">
-      <a class="get-started" href="/en/guide/introduction">
+      <a class="get-started" href="/en/enroll">
         Start Learning Now
         <svg
           class="icon"
@@ -45,16 +48,26 @@ onMounted(load)
       <h2 class="section-title">Welcome to MSID Online</h2>
       <div class="welcome-content">
         <p>
-          In a world where life accelerates and challenges increase, knowledge remains an unwavering light and a bridge connecting our children to their roots and identity wherever they are.
+          In a world where life accelerates and challenges increase,
+          knowledge remains an unwavering light and a bridge connecting our
+          children to their roots and identity wherever they are.
         </p>
         <p>
-          From this belief, <strong>MSID Online</strong> was born — an educational platform carrying a noble mission: to make learning an enjoyable, authentic, and inspiring journey.
+          From this belief, <strong>MSID Online</strong> was born — an
+          educational platform carrying a noble mission: to make learning
+          an enjoyable, authentic, and inspiring journey.
         </p>
         <p>
-          At MSID Online, we blend the beauty of traditional education with the effectiveness of modern methods to provide a comprehensive learning experience that nourishes the mind, refines the soul, and builds self-confidence.
+          At MSID Online, we blend the beauty of traditional education with
+          the effectiveness of modern methods to provide a comprehensive
+          learning experience that nourishes the mind, refines the soul,
+          and builds self-confidence.
         </p>
         <p class="highlight">
-          Here, we don't just teach — we accompany each learner on their journey, celebrate their progress, and believe that every step they take on the path of knowledge builds a brighter and more confident future.
+          Here, we don't just teach — we accompany each learner on their
+          journey, celebrate their progress, and believe that every step
+          they take on the path of knowledge builds a brighter and more
+          confident future.
         </p>
       </div>
     </div>
@@ -66,16 +79,29 @@ onMounted(load)
       <h2 class="section-title">Our Motivation</h2>
       <div class="motivation-content">
         <p>
-          The <strong>MSID Online</strong> project was launched from our deep belief in the importance of authentic and balanced education that combines Islamic values with contemporary skills.
+          The <strong>MSID Online</strong> project was launched from our
+          deep belief in the importance of authentic and balanced education
+          that combines Islamic values with contemporary skills.
         </p>
         <p>
-          We noticed that children of the Arab and Muslim diaspora abroad face difficulties in learning Arabic, memorizing the Quran, and understanding their religion in their mother tongue. Our idea was to extend an educational bridge connecting them to their roots and culture wherever they are.
+          We noticed that children of the Arab and Muslim diaspora abroad
+          face difficulties in learning Arabic, memorizing the Quran, and
+          understanding their religion in their mother tongue. Our idea was
+          to extend an educational bridge connecting them to their roots
+          and culture wherever they are.
         </p>
         <p>
-          MSID Online came to provide a safe and flexible learning environment online, combining Quran memorization and interpretation, Arabic language teaching, and Islamic education lessons.
+          MSID Online came to provide a safe and flexible learning
+          environment online, combining Quran memorization and
+          interpretation, Arabic language teaching, and Islamic education
+          lessons.
         </p>
         <p class="highlight">
-          <strong>Our goal</strong> is to enable our children to preserve their identity, develop their abilities, and strengthen their self-confidence through purposeful education that relies on quality, simplicity, and individual attention to each learner, whether child or adult.
+          <strong>Our goal</strong> is to enable our children to preserve
+          their identity, develop their abilities, and strengthen their
+          self-confidence through purposeful education that relies on
+          quality, simplicity, and individual attention to each learner,
+          whether child or adult.
         </p>
       </div>
     </div>
@@ -90,42 +116,56 @@ onMounted(load)
           <div class="feature-icon">🕐</div>
           <h3>Learn Anytime, Anywhere</h3>
           <p>
-            We provide you with a flexible learning experience that fits your schedule and lifestyle, whether you're a student, employee, or parent looking for quality education for your children.
+            We provide you with a flexible learning experience that fits
+            your schedule and lifestyle, whether you're a student,
+            employee, or parent looking for quality education for your
+            children.
           </p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">📖</div>
           <h3>High-Quality Education in Quran and Arabic</h3>
           <p>
-            Comprehensive programs in Quran memorization and Tajweed, Arabic language teaching, and Islamic education, specially designed for children, teens, and adults.
+            Comprehensive programs in Quran memorization and Tajweed,
+            Arabic language teaching, and Islamic education, specially
+            designed for children, teens, and adults.
           </p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">👤</div>
           <h3>Individual Follow-up for Each Learner</h3>
           <p>
-            Each student has a personalized learning plan that suits their level and pace, with one-on-one sessions and direct interaction with teachers to ensure the best results.
+            Each student has a personalized learning plan that suits their
+            level and pace, with one-on-one sessions and direct interaction
+            with teachers to ensure the best results.
           </p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">🎯</div>
           <h3>Interactive and Engaging Learning</h3>
           <p>
-            Lessons supported by videos, flashcards, quizzes, and interactive activities that make learning an enjoyable and easy-to-understand journey.
+            Lessons supported by videos, flashcards, quizzes, and
+            interactive activities that make learning an enjoyable and
+            easy-to-understand journey.
           </p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">💪</div>
           <h3>Learn Through Practice and Continuous Training</h3>
           <p>
-            At MSID Online, we don't stop at theoretical explanation—we give learners opportunities for practical training and repeated practice until they master the skill with confidence.
+            At MSID Online, we don't stop at theoretical explanation—we
+            give learners opportunities for practical training and repeated
+            practice until they master the skill with confidence.
           </p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">🌟</div>
           <h3>Safe and Inspiring Learning Environment</h3>
           <p>
-            We provide an outstanding educational space that develops values and identity, instilling in learners a love of knowledge and belonging through a language that combines authenticity and modernity.
+            We provide an outstanding educational space that develops
+            values and identity, instilling in learners a love of knowledge
+            and belonging through a language that combines authenticity and
+            modernity.
           </p>
         </div>
       </div>
@@ -137,35 +177,48 @@ onMounted(load)
     <div class="container">
       <h2 class="section-title">Our Educational Methodology</h2>
       <p class="section-intro">
-        At MSID Online, we believe that effective learning happens when traditional wisdom meets modern innovation. Our teaching methodology is built on four core pillars:
+        At MSID Online, we believe that effective learning happens when
+        traditional wisdom meets modern innovation. Our teaching
+        methodology is built on four core pillars:
       </p>
       <div class="approach-grid">
         <div class="approach-card">
           <div class="approach-icon">🎓</div>
           <h3>Personalized Learning Paths</h3>
           <p>
-            Every student is unique. We assess each learner's current level, learning style, and goals to create a customized curriculum that ensures steady progress and sustained motivation.
+            Every student is unique. We assess each learner's current
+            level, learning style, and goals to create a customized
+            curriculum that ensures steady progress and sustained
+            motivation.
           </p>
         </div>
         <div class="approach-card">
           <div class="approach-icon">👨‍🏫</div>
           <h3>Expert Native Teachers</h3>
           <p>
-            Our carefully selected teachers are not only experts in their fields but also passionate educators who understand the challenges of teaching Arabic and Islamic studies to diaspora communities.
+            Our carefully selected teachers are not only experts in their
+            fields but also passionate educators who understand the
+            challenges of teaching Arabic and Islamic studies to diaspora
+            communities.
           </p>
         </div>
         <div class="approach-card">
           <div class="approach-icon">📱</div>
           <h3>Modern Technology, Traditional Values</h3>
           <p>
-            We leverage cutting-edge educational technology—interactive platforms, multimedia resources, and real-time feedback systems—while staying true to authentic teaching methods that have proven effective for centuries.
+            We leverage cutting-edge educational technology—interactive
+            platforms, multimedia resources, and real-time feedback
+            systems—while staying true to authentic teaching methods that
+            have proven effective for centuries.
           </p>
         </div>
         <div class="approach-card">
           <div class="approach-icon">🔄</div>
           <h3>Continuous Assessment & Improvement</h3>
           <p>
-            Regular evaluations, progress reports, and parent-teacher communication ensure that each student stays on track and continuously improves their skills.
+            Regular evaluations, progress reports, and parent-teacher
+            communication ensure that each student stays on track and
+            continuously improves their skills.
           </p>
         </div>
       </div>
@@ -175,51 +228,58 @@ onMounted(load)
   <!-- Pricing -->
   <section id="pricing" class="content-section alt-bg">
     <div class="container">
-      <h2 class="section-title">Pricing</h2>
+      <h2 class="section-title">Flexible Learning Plans</h2>
       <p class="section-intro">
-        We offer flexible pricing plans to suit different needs and budgets:
+        Choose the plan that fits your needs and lifestyle:
       </p>
       <div class="pricing-grid">
         <div class="pricing-card">
-          <div class="plan-icon">📦</div>
-          <h3>Basic Plan</h3>
-          <p class="plan-subtitle">Perfect for beginners</p>
+          <div class="plan-icon">💶</div>
+          <h3>Flexible Plan</h3>
+          <p class="plan-subtitle">Pay only for the time you study</p>
           <ul class="plan-features">
-            <li>2 sessions per week (30 minutes each)</li>
-            <li>Quran or Arabic language</li>
-            <li>Progress tracking</li>
+            <li>Complete scheduling flexibility</li>
+            <li>No monthly commitments</li>
+            <li>Ideal for irregular schedules</li>
           </ul>
-          <p class="plan-price"><strong>$99/month</strong></p>
+          <p class="plan-price"><strong>€7/hour</strong></p>
+        </div>
+        <div class="pricing-card">
+          <div class="plan-icon">📅</div>
+          <h3>Monthly Plan</h3>
+          <p class="plan-subtitle">
+            For steady progress and consistent practice
+          </p>
+          <ul class="plan-features">
+            <li>8 hours total</li>
+            <li>2 classes per week (1 hour each)</li>
+            <li>Each class = 1 hour + 10-minute break</li>
+            <li>Discounted rate compared to hourly</li>
+          </ul>
+          <p class="plan-price"><strong>€60/month</strong></p>
         </div>
         <div class="pricing-card featured">
           <div class="plan-badge">Most Popular</div>
-          <div class="plan-icon">⭐</div>
-          <h3>Standard Plan</h3>
-          <p class="plan-subtitle">Most popular choice</p>
+          <div class="plan-icon">🚀</div>
+          <h3>Intensive Monthly Plan</h3>
+          <p class="plan-subtitle">
+            For fast learners and quick improvement!
+          </p>
           <ul class="plan-features">
-            <li>3 sessions per week (45 minutes each)</li>
-            <li>Quran + Arabic language</li>
-            <li>Personalized learning plan</li>
-            <li>Monthly progress reports</li>
-          </ul>
-          <p class="plan-price"><strong>$149/month</strong></p>
-        </div>
-        <div class="pricing-card">
-          <div class="plan-icon">💎</div>
-          <h3>Premium Plan</h3>
-          <p class="plan-subtitle">For dedicated learners</p>
-          <ul class="plan-features">
-            <li>5 sessions per week (60 minutes each)</li>
-            <li>Quran + Arabic + Islamic Studies</li>
+            <li>16 hours total</li>
+            <li>4 classes weekly</li>
+            <li>Each class = 1 hour + 10-minute break</li>
+            <li>Best value for money</li>
             <li>Priority scheduling</li>
-            <li>Weekly progress reports</li>
-            <li>Family discount available</li>
           </ul>
-          <p class="plan-price"><strong>$249/month</strong></p>
+          <p class="plan-price"><strong>€100/month</strong></p>
         </div>
       </div>
       <div class="pricing-note">
-        <p><strong>Special Offer:</strong> New students get 20% off their first month! Use code: <code>WELCOME20</code></p>
+        <p>
+          <strong>Special Discounts:</strong> Family discount 10% for 2nd
+          child • 5% off when paying 3 months in advance
+        </p>
       </div>
     </div>
   </section>
@@ -231,43 +291,54 @@ onMounted(load)
       <div class="faq-grid">
         <div class="faq-item">
           <h3>How do online classes work?</h3>
-          <p>We use secure video conferencing platforms where students meet their teachers for live, interactive sessions. All you need is a device (computer, tablet, or smartphone) and a stable internet connection.</p>
+          <p>
+            We use secure video conferencing platforms where students meet
+            their teachers for live, interactive sessions. All you need is
+            a device (computer, tablet, or smartphone) and a stable
+            internet connection.
+          </p>
         </div>
         <div class="faq-item">
           <h3>What ages do you teach?</h3>
-          <p>We offer programs for all ages: Children (5-12 years), Teens (13-17 years), and Adults (18+).</p>
+          <p>
+            We offer programs for all ages: Children (5-12 years), Teens
+            (13-17 years), and Adults (18+).
+          </p>
         </div>
         <div class="faq-item">
           <h3>Do I need prior knowledge of Arabic?</h3>
-          <p>No! We accept complete beginners and design personalized plans based on your current level.</p>
+          <p>
+            No! We accept complete beginners and design personalized plans
+            based on your current level.
+          </p>
         </div>
         <div class="faq-item">
           <h3>Can I choose my teacher?</h3>
-          <p>Yes, we'll match you with a teacher based on your preferences, and you can request a change if needed.</p>
+          <p>
+            Yes, we'll match you with a teacher based on your preferences,
+            and you can request a change if needed.
+          </p>
         </div>
         <div class="faq-item">
           <h3>What if I need to reschedule a class?</h3>
-          <p>We offer flexible rescheduling with 24-hour notice. Simply contact your teacher or our support team.</p>
+          <p>
+            We offer flexible rescheduling with 24-hour notice. Simply
+            contact your teacher or our support team.
+          </p>
         </div>
         <div class="faq-item">
           <h3>Do you provide certificates?</h3>
-          <p>Yes, students receive certificates upon completing each program level.</p>
+          <p>
+            Yes, students receive certificates upon completing each program
+            level.
+          </p>
         </div>
       </div>
       <div class="faq-cta">
-        <p><strong>Have more questions?</strong> <a href="/en/about/faq">Contact us →</a></p>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section id="cta" class="content-section cta-section">
-    <div class="container">
-      <h2>Ready to Start Your Learning Journey?</h2>
-      <p>Join thousands of students worldwide who are reconnecting with their heritage through MSID Online.</p>
-      <div class="cta-actions">
-        <a href="/en/guide/introduction" class="cta-button primary">Enroll Now</a>
-        <a href="/en/about/faq" class="cta-button secondary">Book Free Trial Session</a>
+        <p>
+          <strong>Have more questions?</strong>
+          <a href="https://wa.me/212XXXXXXXXX">Contact us →</a>
+        </p>
       </div>
     </div>
   </section>
@@ -356,7 +427,8 @@ html:not(.dark) .accent,
 }
 
 .actions .get-started {
-  background: linear-gradient(var(--vt-c-bg-mute), var(--vt-c-bg-mute)) padding-box,
+  background: linear-gradient(var(--vt-c-bg-mute), var(--vt-c-bg-mute))
+      padding-box,
     linear-gradient(45deg, #42d392, #647eff) border-box;
   border: 2px solid transparent;
   margin-left: 18px;
@@ -672,69 +744,6 @@ html:not(.dark) .accent,
   text-decoration: underline;
 }
 
-/* CTA Section */
-.cta-section {
-  background: linear-gradient(135deg, var(--vt-c-brand-soft) 0%, var(--vt-c-bg-soft) 100%);
-  text-align: center;
-  padding: 80px 32px;
-}
-
-.cta-section h2 {
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 16px;
-  color: var(--vt-c-text-1);
-}
-
-.cta-section p {
-  font-size: 20px;
-  color: var(--vt-c-text-2);
-  margin-bottom: 36px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.cta-actions {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.cta-button {
-  padding: 14px 32px;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: all 0.3s;
-  display: inline-block;
-}
-
-.cta-button.primary {
-  background: var(--vt-c-brand);
-  color: white;
-}
-
-.cta-button.primary:hover {
-  background: var(--vt-c-brand-dark);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.cta-button.secondary {
-  background: transparent;
-  border: 2px solid var(--vt-c-brand);
-  color: var(--vt-c-brand);
-}
-
-.cta-button.secondary:hover {
-  background: var(--vt-c-brand);
-  color: white;
-  transform: translateY(-2px);
-}
-
 /* Responsive Design */
 @media (max-width: 960px) {
   .tagline {
@@ -779,10 +788,6 @@ html:not(.dark) .accent,
     font-size: 28px;
   }
 
-  .cta-section h2 {
-    font-size: 32px;
-  }
-
   .actions a {
     margin: 18px 8px;
   }
@@ -799,22 +804,43 @@ html:not(.dark) .accent,
 }
 
 /* Logo */
-#uwu {
-  display: none;
+/* Logo Styles */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
-.uwu #uwu {
-  display: block;
-  width: 100%;
-  max-width: 720px;
-  margin: -120px auto -20px;
-  aspect-ratio: 192 / 108;
-  content: url(/logo-uwu.png);
+.msid-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  border: 4px solid var(--vt-c-bg);
+  transition: all 0.3s ease;
 }
 
-@media (max-width: 576px) {
-  .uwu #uwu {
-    margin: -60px auto -10px;
+.msid-logo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .msid-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .logo-container {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .msid-logo {
+    width: 100px;
+    height: 100px;
   }
 }
 </style>

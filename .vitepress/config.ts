@@ -7,12 +7,20 @@ import { headerPlugin } from './headerMdPlugin'
 // Arabic Navigation (root)
 const navAr: ThemeConfig['nav'] = [
   {
+    text: '📱 +212 XXX XXX XXX',
+    link: 'https://wa.me/212XXXXXXXXX'
+  },
+  {
     text: 'المسيد',
     link: '/'
   },
   {
     text: 'دوافعنا',
     link: '/motivation'
+  },
+  {
+    text: 'مبادئنا',
+    link: '/principles'
   },
   {
     text: 'عروضنا',
@@ -29,11 +37,23 @@ const navAr: ThemeConfig['nav'] = [
   {
     text: 'الأسئلة الشائعة',
     link: '/about/faq'
+  },
+  {
+    text: '🚀 التسجيل',
+    link: '/enroll'
+  },
+  {
+    text: '🇬🇧 English',
+    link: '/en/'
   }
 ]
 
 // English Navigation
 const navEn: ThemeConfig['nav'] = [
+  {
+    text: '📱 +212 XXX XXX XXX',
+    link: 'https://wa.me/212XXXXXXXXX'
+  },
   {
     text: 'MSID',
     link: '/en/'
@@ -41,6 +61,10 @@ const navEn: ThemeConfig['nav'] = [
   {
     text: 'Our Motivation',
     link: '/en/motivation'
+  },
+  {
+    text: 'Our Principles',
+    link: '/en/principles'
   },
   {
     text: 'Our Offers',
@@ -57,6 +81,14 @@ const navEn: ThemeConfig['nav'] = [
   {
     text: 'FAQ',
     link: '/en/about/faq'
+  },
+  {
+    text: '🚀 Enroll',
+    link: '/en/enroll'
+  },
+  {
+    text: '🇸🇦 العربية',
+    link: '/'
   }
 ]
 
@@ -70,11 +102,17 @@ export default defineConfigWithTheme<ThemeConfig>({
   srcDir: 'src',
   srcExclude: ['tutorial/**/description.md'],
 
+  // Ignore dead links for now since we're in development
+  ignoreDeadLinks: true,
+
   head: [
+    ['link', { rel: 'icon', href: '/msid-logo.jpg' }],
+    ['link', { rel: 'apple-touch-icon', href: '/msid-logo.jpg' }],
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { property: 'og:url', content: 'http://msid.ma/' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'MSID online' }],
+    ['meta', { property: 'og:image', content: '/msid-logo.jpg' }],
     [
       'meta',
       {
@@ -83,7 +121,8 @@ export default defineConfigWithTheme<ThemeConfig>({
       }
     ],
     ['meta', { name: 'twitter:site', content: '@msidonline' }],
-    ['meta', { name: 'twitter:card', content: 'summary' }]
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:image', content: '/msid-logo.jpg' }]
   ],
 
   // Locales configuration
@@ -95,6 +134,10 @@ export default defineConfigWithTheme<ThemeConfig>({
       title: 'MSID online المسيد عن بعد',
       description: 'MSID online المسيد عن بعد',
       themeConfig: {
+        // logo: {
+        //   src: '/msid-logo.jpg',
+        //   alt: 'MSID Logo'
+        // },
         nav: navAr,
         socialLinks: [
           { icon: 'facebook', link: 'https://facebook.com/msidonline' }
@@ -104,7 +147,7 @@ export default defineConfigWithTheme<ThemeConfig>({
             text: 'MSID Online School',
             link: 'https://msid.ma'
           },
-          copyright: `حقوق المؤلف © 2025 MSID Online School`
+          copyright: `حقوق المؤلف © 2025 MSID Online School | <a href="https://instagram.com/msidonline" style="color: inherit;">Instagram</a>`
         }
       }
     },
@@ -114,6 +157,10 @@ export default defineConfigWithTheme<ThemeConfig>({
       title: 'MSID Online School',
       description: 'Preserving Identity Through Education',
       themeConfig: {
+        // logo: {
+        //   src: '/msid-logo.jpg',
+        //   alt: 'MSID Logo'
+        // },
         nav: navEn,
         socialLinks: [
           { icon: 'facebook', link: 'https://facebook.com/msidonline' }
@@ -123,7 +170,7 @@ export default defineConfigWithTheme<ThemeConfig>({
             text: 'MSID Online School',
             link: 'https://msid.ma'
           },
-          copyright: `Copyright © 2025 MSID Online School`
+          copyright: `Copyright © 2025 MSID Online School | <a href="https://instagram.com/msidonline" style="color: inherit;">Instagram</a>`
         }
       }
     }

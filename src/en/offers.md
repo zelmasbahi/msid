@@ -156,5 +156,5 @@ Choose the right program for you and book your free trial session!
 
 **30-minute trial session - Completely free - No commitment**
 
-[Book Trial Session →](/en/about/faq) • [View Pricing & Plans →](/en/sponsor/)
+[Book Trial Session →](/en/enroll) • [View Pricing & Plans →](/en/sponsor/)
 :::

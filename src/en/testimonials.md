@@ -108,6 +108,6 @@ We take pride in our students' successes and their families' happiness. Here are
 ::: tip Try It Yourself!
 **Book your free trial session** and become part of the success stories!
 
-[Book Free Trial →](/en/about/faq) • [Start Now →](/en/guide/introduction)
+[Book Free Trial →](/en/about/faq) • [Start Now →](/en/enroll)
 :::
 

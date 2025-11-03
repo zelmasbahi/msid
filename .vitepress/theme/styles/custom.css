@@ -1,0 +1,32 @@
+/* Custom styles for MSID logo */
+
+/* Make navbar logo circular */
+.VPNavBarTitle .VPImage {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.VPNavBarTitle .logo {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+/* Mobile navbar logo */
+@media (max-width: 768px) {
+  .VPNavBarTitle .VPImage,
+  .VPNavBarTitle .logo {
+    width: 28px !important;
+    height: 28px !important;
+  }
+}
+
+/* Ensure circular shape for all logo instances */
+.VPImage.logo {
+  border-radius: 50%;
+  object-fit: cover;
+}

@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import SiteMap from './SiteMap.vue'
-// import NewsLetter from './NewsLetter.vue'
 import { load, data, base } from './sponsors'
 import SponsorsGroup from './SponsorsGroup.vue'
 import VueMasteryModal from './VueMasteryModal.vue'
@@ -12,7 +11,9 @@ onMounted(load)
 <template>
   <!-- Hero Section -->
   <section id="hero" dir="rtl">
-    <!-- <img id="uwu" alt="MSID Online Logo" /> -->
+    <div class="logo-container">
+      <img src="/msid-logo.jpg" alt="MSID Online Logo" class="msid-logo" />
+    </div>
     <h1 class="tagline">
       <span class="title-with-en accent">
         <span class="main-title">المسيد عن بعد</span>
@@ -23,7 +24,7 @@ onMounted(load)
     </h1>
     <p class="description">ملاذ أبناءك في الغربة لحفظ دينهم</p>
     <p class="actions">
-      <a class="get-started" href="/guide/introduction">
+      <a class="get-started" href="/enroll">
         ابدأ التعلّم الآن
         <svg
           class="icon"
@@ -209,53 +210,53 @@ onMounted(load)
   <!-- Pricing -->
   <section id="pricing" class="content-section alt-bg" dir="rtl">
     <div class="container">
-      <h2 class="section-title">الأسعار</h2>
+      <h2 class="section-title">خطط التعلم المرنة</h2>
       <p class="section-intro">
-        نقدم خطط أسعار مرنة تناسب الاحتياجات والميزانيات المختلفة:
+        اختر الخطة التي تناسب احتياجاتك وأسلوب حياتك:
       </p>
       <div class="pricing-grid">
         <div class="pricing-card">
-          <div class="plan-icon">📦</div>
-          <h3>الخطة الأساسية</h3>
-          <p class="plan-subtitle">مثالية للمبتدئين</p>
+          <div class="plan-icon">💶</div>
+          <h3>الخطة المرنة</h3>
+          <p class="plan-subtitle">ادفع فقط مقابل الوقت الذي تدرس فيه</p>
           <ul class="plan-features">
-            <li>حصتان أسبوعيًا (30 دقيقة لكل منهما)</li>
-            <li>القرآن أو اللغة العربية</li>
-            <li>متابعة التقدم</li>
+            <li>مرونة كاملة في الجدولة</li>
+            <li>لا التزامات شهرية</li>
+            <li>مثالية للجداول غير المنتظمة</li>
           </ul>
-          <p class="plan-price"><strong>99 دولار/شهريًا</strong></p>
+          <p class="plan-price"><strong>7 يورو/الساعة</strong></p>
+        </div>
+        <div class="pricing-card">
+          <div class="plan-icon">📅</div>
+          <h3>الخطة الشهرية</h3>
+          <p class="plan-subtitle">للتقدم الثابت والممارسة المستمرة</p>
+          <ul class="plan-features">
+            <li>8 ساعات شهريًا</li>
+            <li>حصتان أسبوعيًا (ساعة لكل حصة)</li>
+            <li>كل حصة = ساعة + 10 دقائق استراحة</li>
+            <li>سعر مخفض مقارنة بالساعة الفردية</li>
+          </ul>
+          <p class="plan-price"><strong>60 يورو/شهريًا</strong></p>
         </div>
         <div class="pricing-card featured">
           <div class="plan-badge">الأكثر شعبية</div>
-          <div class="plan-icon">⭐</div>
-          <h3>الخطة القياسية</h3>
-          <p class="plan-subtitle">الخيار الأكثر شعبية</p>
+          <div class="plan-icon">🚀</div>
+          <h3>الخطة المكثفة</h3>
+          <p class="plan-subtitle">للمتعلمين السريعين والتحسن السريع!</p>
           <ul class="plan-features">
-            <li>3 حصص أسبوعيًا (45 دقيقة لكل منها)</li>
-            <li>القرآن + اللغة العربية</li>
-            <li>خطة تعليمية مخصصة</li>
-            <li>تقارير تقدم شهرية</li>
+            <li>16 ساعة شهريًا</li>
+            <li>4 حصص أسبوعيًا</li>
+            <li>كل حصة = ساعة + 10 دقائق استراحة</li>
+            <li>أفضل قيمة مقابل المال</li>
+            <li>أولوية في اختيار المواعيد</li>
           </ul>
-          <p class="plan-price"><strong>149 دولار/شهريًا</strong></p>
-        </div>
-        <div class="pricing-card">
-          <div class="plan-icon">💎</div>
-          <h3>الخطة المتميزة</h3>
-          <p class="plan-subtitle">للمتعلمين الجادين</p>
-          <ul class="plan-features">
-            <li>5 حصص أسبوعيًا (60 دقيقة لكل منها)</li>
-            <li>القرآن + العربية + الدراسات الإسلامية</li>
-            <li>جدولة ذات أولوية</li>
-            <li>تقارير تقدم أسبوعية</li>
-            <li>خصم عائلي متاح</li>
-          </ul>
-          <p class="plan-price"><strong>249 دولار/شهريًا</strong></p>
+          <p class="plan-price"><strong>100 يورو/شهريًا</strong></p>
         </div>
       </div>
       <div class="pricing-note">
         <p>
-          <strong>عرض خاص:</strong> الطلاب الجدد يحصلون على خصم 20% على
-          شهرهم الأول! استخدم الرمز: <code>WELCOME20</code>
+          <strong>خصومات خاصة:</strong> خصم عائلي 10% للطفل الثاني • خصم 5%
+          عند الدفع لـ 3 أشهر مقدمًا
         </p>
       </div>
     </div>
@@ -312,27 +313,8 @@ onMounted(load)
       <div class="faq-cta">
         <p>
           <strong>هل لديك المزيد من الأسئلة؟</strong>
-          <a href="/about/faq">اتصل بنا ←</a>
+          <a href="https://wa.me/212XXXXXXXXX">اتصل بنا ←</a>
         </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section id="cta" class="content-section cta-section" dir="rtl">
-    <div class="container">
-      <h2>هل أنت مستعد لبدء رحلتك التعليمية؟</h2>
-      <p>
-        انضم إلى آلاف الطلاب حول العالم الذين يعيدون الاتصال بتراثهم من
-        خلال مسيد أونلاين.
-      </p>
-      <div class="cta-actions">
-        <a href="/guide/introduction" class="cta-button primary"
-          >سجّل الآن</a
-        >
-        <a href="/about/faq" class="cta-button secondary"
-          >احجز حصة تجريبية مجانية</a
-        >
       </div>
     </div>
   </section>
@@ -346,7 +328,7 @@ section {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -467,6 +449,9 @@ html:not(.dark) .accent,
   font-size: 48px;
   font-weight: 700;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   margin-bottom: 1.2em;
   letter-spacing: -0.5px;
   color: var(--vt-c-text-1);
@@ -778,73 +763,6 @@ html:not(.dark) .accent,
   text-decoration: underline;
 }
 
-/* CTA Section */
-.cta-section {
-  background: linear-gradient(
-    135deg,
-    var(--vt-c-brand-soft) 0%,
-    var(--vt-c-bg-soft) 100%
-  );
-  text-align: center;
-  padding: 80px 32px;
-}
-
-.cta-section h2 {
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 16px;
-  color: var(--vt-c-text-1);
-}
-
-.cta-section p {
-  font-size: 20px;
-  color: var(--vt-c-text-2);
-  margin-bottom: 36px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.cta-actions {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.cta-button {
-  padding: 14px 32px;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 8px;
-  text-decoration: none;
-  transition: all 0.3s;
-  display: inline-block;
-}
-
-.cta-button.primary {
-  background: var(--vt-c-brand);
-  color: white;
-}
-
-.cta-button.primary:hover {
-  background: var(--vt-c-brand-dark);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.cta-button.secondary {
-  background: transparent;
-  border: 2px solid var(--vt-c-brand);
-  color: var(--vt-c-brand);
-}
-
-.cta-button.secondary:hover {
-  background: var(--vt-c-brand);
-  color: white;
-  transform: translateY(-2px);
-}
-
 /* Responsive Design */
 @media (max-width: 960px) {
   .tagline {
@@ -890,10 +808,6 @@ html:not(.dark) .accent,
     font-size: 28px;
   }
 
-  .cta-section h2 {
-    font-size: 32px;
-  }
-
   .actions a {
     margin: 18px 8px;
   }
@@ -910,22 +824,43 @@ html:not(.dark) .accent,
 }
 
 /* Logo */
-#uwu {
-  display: none;
+/* Logo Styles */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
-.uwu #uwu {
-  display: block;
-  width: 100%;
-  max-width: 720px;
-  margin: -120px auto -20px;
-  aspect-ratio: 192 / 108;
-  content: url(/logo-uwu.png);
+.msid-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  border: 4px solid var(--vt-c-bg);
+  transition: all 0.3s ease;
 }
 
-@media (max-width: 576px) {
-  .uwu #uwu {
-    margin: -60px auto -10px;
+.msid-logo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .msid-logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .logo-container {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .msid-logo {
+    width: 100px;
+    height: 100px;
   }
 }
 </style>

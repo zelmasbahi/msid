@@ -1,149 +1,151 @@
 ---
-title: Pricing & Plans
+title: Pricing
 sidebar: false
 ---
 
-# Pricing & Plans
+# Flexible Learning Plans
 
-## Choose the Right Plan for You
-
-We offer flexible pricing plans that suit each learner's needs and every family's budget. All plans include expert teachers, an advanced learning platform, and accurate progress tracking.
+## Choose the plan that fits your needs and lifestyle
 
 ---
 
-## 📦 Basic Plan
+## 💶 1. Flexible Plan
 
-### **$99 / month**
+### **€8 per hour**
 
-**Perfect for beginners and students who want to start**
+Pay only for the time you study — ideal for students with irregular schedules.
 
-### What's Included:
-✅ **2 sessions per week** (30 minutes each)  
-✅ **Choose program**: Quran **or** Arabic language  
-✅ **Expert native teacher**  
-✅ **Progress tracking** via platform  
-✅ **Access to basic learning materials**  
-✅ **Monthly performance report**  
+**Features:**
 
-### Suitable for:
-- Beginner children (ages 5-12)
-- Adults who want to learn at a slower pace
-- Those with busy schedules
+- ✅ Complete scheduling flexibility
+- ✅ No monthly commitments
+- ✅ Pay-as-you-go
+- ✅ Perfect for beginners or busy schedules
 
 ---
 
-## ⭐ Standard Plan
+## 📅 2. Monthly Plan
 
-### **$149 / month**
+### **€60 / month**
 
-::: tip Most Popular Choice
-Best value for money - the most chosen plan by our students!
+**8 hours total** (2 classes per week, 1 hour each)  
+Perfect for steady progress and consistent practice.
+
+**Features:**
+
+- ✅ 8 hours per month
+- ✅ 2 classes per week
+- ✅ Each class = 1 hour + 10-minute break
+- ✅ Discounted rate compared to hourly
+- ✅ Regular schedule for continuous learning
+
+---
+
+## 🚀 3. Intensive Monthly Plan
+
+### **€100 / month**
+
+**16 hours total** (4 hours weekly)
+
+::: tip Most Popular!
+Best choice for fast learners and quick improvement!
 :::
 
-**For serious learners**
+**Features:**
 
-### What's Included:
-✅ **3 sessions per week** (45 minutes each)  
-✅ **Two programs together**: Quran **+** Arabic language  
-✅ **Personalized learning plan** based on your level  
-✅ **Dedicated teacher** to accompany your journey  
-✅ **Complete resource library** - videos, flashcards, exercises  
-✅ **Detailed monthly progress reports**  
-✅ **Technical support** via WhatsApp  
-
-### Suitable for:
-- Children and teens who want clear progress
-- Adults committed to learning
-- Those who want to combine Quran and Arabic
+- ✅ 16 hours per month
+- ✅ 4 classes per week
+- ✅ Each class = 1 hour + 10-minute break
+- ✅ Best value for money
+- ✅ Fast and tangible results
+- ✅ Priority scheduling
 
 ---
 
-## 💎 Premium Plan
+## 📊 Plan Comparison
 
-### **$249 / month**
-
-**For learners who aspire to excellence and mastery**
-
-### What's Included:
-✅ **5 sessions per week** (60 minutes each)  
-✅ **Comprehensive programs**: Quran + Arabic + Islamic Studies  
-✅ **Priority scheduling** - choose your preferred times  
-✅ **VIP teacher** from our best educators  
-✅ **Weekly detailed reports**  
-✅ **Additional free review sessions**  
-✅ **24/7 direct support**  
-✅ **Certified certificates** upon completing each level  
-✅ **15% family discount** when enrolling more than one student  
-
-### Suitable for:
-- High-achieving students
-- Those who want to memorize the entire Quran
-- Families with multiple children
+| Plan          | Price      | Hours     | Classes/Week | Savings         |
+| ------------- | ---------- | --------- | ------------ | --------------- |
+| **Flexible**  | €8/hour    | As needed | Flexible     | -               |
+| **Monthly**   | €60/month  | 8 hours   | 2 classes    | Save €4/month   |
+| **Intensive** | €100/month | 16 hours  | 4 classes    | Save €28/month! |
 
 ---
 
-## 💰 Payment Options
+## ✨ What's Included in Every Plan
 
-### Available Payment Methods:
-- 💳 Credit Cards (Visa, Mastercard, Amex)
-- 🌐 PayPal
-- 🏦 Bank Transfer
-- 📱 Electronic Payment Services
+All our plans include:
 
-### Refund Policy:
-Full refund guarantee within the **first 30 days** if you're not completely satisfied.
+- 👨‍🏫 Expert native-speaking teachers
+- 📚 All programs (Quran, Arabic, Islamic Studies)
+- 📱 Advanced learning platform
+- 📊 Precise progress tracking
+- 🎯 Personalized learning plan
+- 🌐 High-quality online sessions
 
 ---
 
 ## 🎁 Special Offers
 
-### New Student Offer
-::: tip 20% Off First Month
-Use code: **WELCOME20** when registering  
-*Limited time offer*
-:::
-
 ### Family Discount
-- **15% off** when enrolling 2 students
-- **25% off** when enrolling 3+ students
 
-### Annual Payment
-- **2 months free** when paying annually in advance
-- **Save up to $500** per year
+- **10% discount** for the second child
+- **15% discount** for the third child and beyond
 
----
+### Advance Payment Discount
 
-## ❓ Pricing FAQs
-
-### Can I change my plan later?
-Yes! You can upgrade or downgrade at any time, and the difference will be calculated proportionally.
-
-### What if I miss a session?
-You can reschedule any session with 24-hour notice, or get a recording of the session.
-
-### Are there registration fees?
-No, there are no hidden fees. The stated price includes everything.
-
-### Do you offer a free trial?
-Yes! A **30-minute free trial session** to assess your level and experience our teaching quality.
+- **5% extra discount** when paying 3 months in advance
+- **10% extra discount** when paying 6 months in advance
 
 ---
 
-## 📞 Need Help Choosing?
+## 💳 Payment Methods
 
-Our team is ready to help you choose the perfect plan!
+We accept all payment methods:
 
-**Contact us:**
-- 📧 Email: info@msid.ma
-- 📱 WhatsApp: +212 XXX XXX XXX
-- 💬 Or [fill out the contact form](/en/about/faq)
+- Credit cards (Visa, Mastercard)
+- PayPal
+- Bank transfer
+- Electronic payment
+
+---
+
+## ❓ Frequently Asked Questions
+
+### Can I switch between plans?
+
+Yes! You can change between plans anytime.
+
+### What if I miss a class?
+
+You can reschedule with 24-hour notice.
+
+### Are there any additional fees?
+
+No, prices include everything.
+
+### Do I get a trial class?
+
+Yes! Free 30-minute trial class for everyone.
+
+---
+
+## 🌟 Why Choose MSID Online?
+
+- **Outstanding teachers** - Experts in online education
+- **Complete flexibility** - Learn at your convenient time
+- **Guaranteed quality** - Satisfaction guarantee or money back
+- **Continuous support** - We're with you every step
 
 ---
 
 ::: tip Ready to Start?
-**Book your free trial session now!**
+Book your free trial class today and discover the difference!
 
-No credit card required • Free cancellation anytime
-
-[Book Free Trial →](/en/about/faq)
+[Book Free Trial Class →](/en/enroll)
 :::
+
+### Contact Us
+
+📧 info@msid.ma  
+📱 WhatsApp: [+212 XXX XXX XXX](https://wa.me/212XXXXXXXXX)
