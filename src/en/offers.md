@@ -8,8 +8,6 @@ title: Our Offers
 
 At **MSID Online**, we offer specialized educational programs in three core areas, designed for all ages and levels.
 
----
-
 ## 📘 Arabic Language
 
 ### Learn Classical Arabic from scratch or develop your level
@@ -42,8 +40,6 @@ At **MSID Online**, we offer specialized educational programs in three core area
 
 **Progressive program from zero level to complete mastery**
 
----
-
 ## 📙 Islamic Studies
 
 ### Comprehensive Islamic Education
@@ -71,8 +67,6 @@ At **MSID Online**, we offer specialized educational programs in three core area
 
 **Simplified teaching suitable for all ages with consideration of individual differences**
 
----
-
 ## 📗 Quran Studies
 
 ### Comprehensive Program for Learning the Book of Allah
@@ -99,8 +93,6 @@ At **MSID Online**, we offer specialized educational programs in three core area
 
 **Suitable for children from 5 years, teens, and adults**
 
----
-
 ## 🎯 Features of All Programs
 
 Regardless of which program you choose, you'll get:
@@ -113,8 +105,6 @@ Regardless of which program you choose, you'll get:
 ✅ **Continuous Assessment** - To ensure real progress  
 ✅ **Certified Certificates** - Upon completing each level  
 
----
-
 ## 💡 You Can Combine Programs
 
 Choose one program or combine them according to your needs and goals:
@@ -124,8 +114,6 @@ Choose one program or combine them according to your needs and goals:
 | **Basic** | One program (Quran **or** Arabic) | Beginners |
 | **Standard** | Quran **+** Arabic | Most Popular ⭐ |
 | **Premium** | Quran **+** Arabic **+** Islamic Studies | Excellence Seekers |
-
----
 
 ## 👥 Who Are These Programs For?
 
@@ -146,8 +134,6 @@ Choose one program or combine them according to your needs and goals:
 - Serious and professional teaching
 - Achieving personal and spiritual goals
 - Mastering language for practical or religious purposes
-
----
 
 ## 🚀 Start Your Learning Journey Today
 

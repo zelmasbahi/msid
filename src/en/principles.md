@@ -10,8 +10,6 @@ title: Our Principles & Promise
 
 At **MSID Online**, we believe that protecting the Islamic identity of Muslim children abroad is not just educational work, but a **sacred trust** and **religious responsibility** we carry on our shoulders.
 
----
-
 ## 🌍 The Challenge Facing Our Children
 
 ### A Painful Reality
@@ -30,8 +28,6 @@ Without proper intervention, we see:
 - Youth who have lost connection with their mother tongue
 - Generations forgetting their heritage and culture
 - Muslims in name only, distant from the essence of their religion
-
----
 
 ## 💫 Our Core Principles
 
@@ -62,8 +58,6 @@ We understand the challenges of life in the West:
 - Understanding of special circumstances
 - Continuous support for families
 
----
-
 ## 🤝 Our Promise to You
 
 ### We Promise to:
@@ -88,8 +82,6 @@ We understand the challenges of life in the West:
 - Invest in their religious and worldly future
 - Give our best effort in every class
 
----
-
 ## 🎯 What We Do
 
 ### Our Daily Work is Driven by:
@@ -108,8 +100,6 @@ We understand the challenges of life in the West:
 - We build a generation proud of their identity
 - We contribute to a better future for the Ummah
 
----
-
 ## 🌟 The Result We Seek
 
 ### We Dream of:
@@ -117,8 +107,6 @@ We understand the challenges of life in the West:
 - **Youth who master** the Quran and Arabic language
 - **Future leaders** who combine authenticity and modernity
 - **Muslim families** cohesive and connected to their roots
-
----
 
 ## 💪 Call to Action
 
@@ -133,8 +121,6 @@ We are not just an educational school, we are:
 - 🌱 A seed of goodness we plant
 - 🔥 A beacon of light we illuminate
 - 🛡️ A shield we build to protect identity
-
----
 
 ::: tip A Message from the Heart
 We do this work out of our deep sense of responsibility to protect Muslim children abroad. This is not a job for us, but a life mission.

@@ -7,8 +7,6 @@ sidebar: false
 
 ## Choose the plan that fits your needs and lifestyle
 
----
-
 ## 💶 1. Flexible Plan
 
 ### **€8 per hour**
@@ -21,8 +19,6 @@ Pay only for the time you study — ideal for students with irregular schedules.
 - ✅ No monthly commitments
 - ✅ Pay-as-you-go
 - ✅ Perfect for beginners or busy schedules
-
----
 
 ## 📅 2. Monthly Plan
 
@@ -38,8 +34,6 @@ Perfect for steady progress and consistent practice.
 - ✅ Each class = 1 hour + 10-minute break
 - ✅ Discounted rate compared to hourly
 - ✅ Regular schedule for continuous learning
-
----
 
 ## 🚀 3. Intensive Monthly Plan
 
@@ -60,8 +54,6 @@ Best choice for fast learners and quick improvement!
 - ✅ Fast and tangible results
 - ✅ Priority scheduling
 
----
-
 ## 📊 Plan Comparison
 
 | Plan          | Price      | Hours     | Classes/Week | Savings         |
@@ -69,8 +61,6 @@ Best choice for fast learners and quick improvement!
 | **Flexible**  | €8/hour    | As needed | Flexible     | -               |
 | **Monthly**   | €60/month  | 8 hours   | 2 classes    | Save €4/month   |
 | **Intensive** | €100/month | 16 hours  | 4 classes    | Save €28/month! |
-
----
 
 ## ✨ What's Included in Every Plan
 
@@ -82,8 +72,6 @@ All our plans include:
 - 📊 Precise progress tracking
 - 🎯 Personalized learning plan
 - 🌐 High-quality online sessions
-
----
 
 ## 🎁 Special Offers
 
@@ -97,8 +85,6 @@ All our plans include:
 - **5% extra discount** when paying 3 months in advance
 - **10% extra discount** when paying 6 months in advance
 
----
-
 ## 💳 Payment Methods
 
 We accept all payment methods:
@@ -107,8 +93,6 @@ We accept all payment methods:
 - PayPal
 - Bank transfer
 - Electronic payment
-
----
 
 ## ❓ Frequently Asked Questions
 
@@ -128,16 +112,12 @@ No, prices include everything.
 
 Yes! Free 30-minute trial class for everyone.
 
----
-
 ## 🌟 Why Choose MSID Online?
 
 - **Outstanding teachers** - Experts in online education
 - **Complete flexibility** - Learn at your convenient time
 - **Guaranteed quality** - Satisfaction guarantee or money back
 - **Continuous support** - We're with you every step
-
----
 
 ::: tip Ready to Start?
 Book your free trial class today and discover the difference!

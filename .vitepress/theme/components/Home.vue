@@ -1,11 +1,4 @@
-<script setup lang="ts">
-import { onMounted } from 'vue'
-import SiteMap from './SiteMap.vue'
-import { load, data, base } from './sponsors'
-import SponsorsGroup from './SponsorsGroup.vue'
-
-onMounted(load)
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <!-- Hero Section -->

@@ -10,8 +10,6 @@ Fill out the form below and we'll contact you within 24 hours to arrange your fr
 
 <EnrollmentForm />
 
----
-
 ## 📞 Other Contact Methods
 
 If you prefer direct contact:

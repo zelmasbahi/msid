@@ -23,13 +23,11 @@
             <div class="form-group">
               <label :for="`age-${formId}`">
                 {{ isArabic ? 'عمر الطالب' : 'Student Age' }}
-                <span class="required">*</span>
               </label>
               <input 
                 v-model="formData.age" 
                 type="number" 
                 :id="`age-${formId}`"
-                required
                 min="5"
                 :placeholder="isArabic ? 'مثال: 10' : 'e.g., 10'"
               />
@@ -38,9 +36,8 @@
             <div class="form-group">
               <label :for="`currentLevel-${formId}`">
                 {{ isArabic ? 'المستوى الحالي' : 'Current Level' }}
-                <span class="required">*</span>
               </label>
-              <select v-model="formData.currentLevel" :id="`currentLevel-${formId}`" required>
+              <select v-model="formData.currentLevel" :id="`currentLevel-${formId}`">
                 <option value="beginner">
                   {{ isArabic ? 'مبتدئ - لا يعرف القراءة والكتابة' : 'Beginner - Cannot read or write' }}
                 </option>
@@ -61,13 +58,11 @@
           <div class="form-group">
             <label :for="`parentName-${formId}`">
               {{ isArabic ? 'اسم ولي الأمر' : 'Parent/Guardian Name' }}
-              <span class="required">*</span>
             </label>
             <input 
               v-model="formData.parentName" 
               type="text" 
               :id="`parentName-${formId}`"
-              required
               :placeholder="isArabic ? 'أدخل اسم ولي الأمر' : 'Enter parent/guardian name'"
             />
           </div>
@@ -107,13 +102,11 @@
           <div class="form-group">
             <label :for="`country-${formId}`">
               {{ isArabic ? 'بلد الإقامة' : 'Country of Residence' }}
-              <span class="required">*</span>
             </label>
             <input 
               v-model="formData.country" 
               type="text" 
               :id="`country-${formId}`"
-              required
               :placeholder="isArabic ? 'مثال: ألمانيا، فرنسا، أمريكا' : 'e.g., Germany, France, USA'"
             />
           </div>
@@ -126,9 +119,8 @@
             <div class="form-group">
               <label :for="`preferredLanguage-${formId}`">
                 {{ isArabic ? 'لغة التدريس المفضلة' : 'Preferred Teaching Language' }}
-                <span class="required">*</span>
               </label>
-              <select v-model="formData.preferredLanguage" :id="`preferredLanguage-${formId}`" required>
+              <select v-model="formData.preferredLanguage" :id="`preferredLanguage-${formId}`">
                 <option value="arabic">
                   {{ isArabic ? 'العربية فقط' : 'Arabic Only' }}
                 </option>
@@ -144,9 +136,8 @@
             <div class="form-group">
               <label :for="`classesPerWeek-${formId}`">
                 {{ isArabic ? 'عدد الحصص في الأسبوع' : 'Classes per Week' }}
-                <span class="required">*</span>
               </label>
-              <select v-model="formData.classesPerWeek" :id="`classesPerWeek-${formId}`" required>
+              <select v-model="formData.classesPerWeek" :id="`classesPerWeek-${formId}`">
                 <option value="1">{{ isArabic ? 'حصة واحدة' : '1 class' }}</option>
                 <option value="2">{{ isArabic ? 'حصتان' : '2 classes' }}</option>
                 <option value="3">{{ isArabic ? '3 حصص' : '3 classes' }}</option>
