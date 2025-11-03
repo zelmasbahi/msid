@@ -45,17 +45,13 @@ jobs:
         with:
           enablement: true
       - name: Install dependencies
-        run: |
-          cd docs-ar
-          pnpm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
       - name: Build with VitePress
-        run: |
-          cd docs-ar
-          pnpm run build
+        run: pnpm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs-ar/.vitepress/dist
+          path: .vitepress/dist
 
   # Deployment job
   deploy:
