@@ -1,10 +1,10 @@
 ---
 page: true
-title: Vue.js - The Progressive JavaScript Framework
+title: The arabic version
 ---
 
 <script setup>
-import Home from '@theme/components/Home.vue'
+import Home from '@theme/components/Home.ar.vue'
 </script>
 
 <Home />

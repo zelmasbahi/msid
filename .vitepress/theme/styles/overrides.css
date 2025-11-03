@@ -15,22 +15,25 @@
     'Courier New', monospace !important;
 }
 
-.VPSidebar,
-.vt-doc.guide,
-.vt-doc.api,
-.VPContentDocOutline,
-.edit-link {
+/* Only apply RTL styles when dir="rtl" is set on html element */
+html[dir="rtl"] .VPSidebar,
+html[dir="rtl"] .vt-doc.guide,
+html[dir="rtl"] .vt-doc.api,
+html[dir="rtl"] .VPContentDocOutline,
+html[dir="rtl"] .edit-link {
   direction: rtl;
 }
 
-
+/* Code blocks are always LTR */
 pre {
   direction: ltr;
 }
-.vt-doc .custom-block {
+
+html[dir="rtl"] .vt-doc .custom-block {
   padding: 22px 24px 4px 20px !important;
 }
-.vt-doc .custom-block:before {
+
+html[dir="rtl"] .vt-doc .custom-block:before {
   content: 'ⓘ';
   position: absolute;
   font-weight: 600;
@@ -39,7 +42,7 @@ pre {
   right: 12px;
 }
 
-.vt-doc .custom-block-title {
+html[dir="rtl"] .vt-doc .custom-block-title {
   margin-right: 14px;
 }
 
@@ -83,17 +86,17 @@ pre {
   }
 }
 
-/* RTL & Persian Styles */
+/* RTL-specific styles - only apply when dir="rtl" */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-li {
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] h4,
+html[dir="rtl"] h5,
+html[dir="rtl"] h6,
+html[dir="rtl"] p,
+html[dir="rtl"] ul,
+html[dir="rtl"] li {
   direction: rtl;
 }
 
@@ -101,45 +104,43 @@ li {
   direction: ltr;
 }
 
-.vt-link-icon {
+html[dir="rtl"] .vt-link-icon {
   margin-left: 0;
   margin-right: 4px;
 }
 
-.vt-doc ul {
-  padding-left: auto;
-  padding-right: 1.25rem;
+html[dir="rtl"] .vt-doc ul {
   padding-left: 0 !important;
+  padding-right: 1.25rem;
 }
 
-.vt-doc ul > li:before {
+html[dir="rtl"] .vt-doc ul > li:before {
   content: '•';
   right: -1.25rem;
 }
 
-.ar.vue-mastery-link .description {
+html[dir="rtl"].vue-mastery-link .description {
   margin-right: 16px;
 }
 
-.vt-doc a[href^="https://sfc.vuejs.org"]:before
-{
+html[dir="rtl"] .vt-doc a[href^="https://sfc.vuejs.org"]:before {
   padding-right: 2.5px;
 }
 
-.vt-doc .custom-block {
+html[dir="rtl"] .vt-doc .custom-block {
   padding: 20px 40px 4px 42px !important;
 }
 
-.vt-doc .custom-block:before {
+html[dir="rtl"] .vt-doc .custom-block:before {
   left: auto !important;
   right: 17px;
 }
 
-.outline-title {
+html[dir="rtl"] .outline-title {
   direction: rtl;
 }
 
-.vt-doc .header-anchor {
+html[dir="rtl"] .vt-doc .header-anchor {
   position: absolute;
   right: -24px;
   float: right !important;
@@ -147,64 +148,62 @@ li {
   padding-left: 0.23em;
 }
 
-
-.vt-icon {
+html[dir="rtl"] .vt-icon {
   margin-right: 0px !important;
   margin-left: 8px;
 }
 
-.top-link,
-.VPNavScreenMenu {
+html[dir="rtl"] .top-link,
+html[dir="rtl"] .VPNavScreenMenu {
   direction: rtl;
 }
 
-.outline-marker {
+html[dir="rtl"] .outline-marker {
   left: auto !important;
   right: -12px;
 }
 
-.vt-doc ol > li {
+html[dir="rtl"] .vt-doc ol > li {
   padding-left: unset !important;
   padding-right: 1.5rem !important;
   text-align: right;
 }
 
-.vt-doc ol > li::before {
+html[dir="rtl"] .vt-doc ol > li::before {
   left: unset !important;
   right: 2px !important;
 }
 
-.vt-menu-link {
+html[dir="rtl"] .vt-menu-link {
   direction: rtl;
 }
 
-.join-translations {
+html[dir="rtl"] .join-translations {
   direction: rtl;
 }
 
-.aside-container .VPContentDocOutline .nested {
+html[dir="rtl"] .aside-container .VPContentDocOutline .nested {
   padding-left: unset;
   padding-right: 1rem;
 }
 
-.vt-badge.ts {
+html[dir="rtl"] .vt-badge.ts {
   margin-right: 0.5em;
 }
 
-.details summary {
+html[dir="rtl"] .details summary {
   direction: rtl;
 }
 
-.tutorial .vue-repl .toggle {
+html[dir="rtl"] .tutorial .vue-repl .toggle {
   margin-right: 4px;
 }
 
-.tutorial .vue-repl .msg {
+html[dir="rtl"] .tutorial .vue-repl .msg {
   direction: ltr;
 }
 
-.vt-doc a[href^="https://play.vuejs.org"]:before
-{
+html[dir="rtl"] .vt-doc a[href^="https://play.vuejs.org"]:before {
   padding-left: unset;
   padding-right: 3px;
   margin-right: 4px;
@@ -213,34 +212,33 @@ li {
   padding-top: 0.5px;
 }
 
-.vt-banner-text {
+html[dir="rtl"] .vt-banner-text {
   direction: ltr;
 }
 
-
-.vt-badge.dev-only:before {
+html[dir="rtl"] .vt-badge.dev-only:before {
   content: 'فقط في وضع التطوير';
 }
 
-
-.vt-doc ol > li:before {
+html[dir="rtl"] .vt-doc ol > li:before {
   left: auto;
   right: 2px;
 }
 
-.vt-doc ol > li p {
+html[dir="rtl"] .vt-doc ol > li p {
   padding-right: 1.25rem;
 }
 
-.vt-badge.experimental:before {
+html[dir="rtl"] .vt-badge.experimental:before {
   content: 'تجريبي';
 }
 
-.demo label {
+html[dir="rtl"] .demo label {
   margin: 0 0.3em 0 1em;
 }
-.vt-doc blockquote {
-  border-left:none!important;
+
+html[dir="rtl"] .vt-doc blockquote {
+  border-left: none !important;
   border-right: 0.2rem solid var(--vt-c-divider);
   padding-right: 1rem;
 }
