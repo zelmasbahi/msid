@@ -1,7 +1,18 @@
 <template>
   <div class="enrollment-form-container">
-    <div v-if="!isSubmitted">
-      <form @submit.prevent="submitForm" class="enrollment-form">
+    <form 
+      action="https://formsubmit.co/onlinemsid@gmail.com" 
+      method="POST"
+      @submit="handleSubmit"
+      class="enrollment-form"
+    >
+        <!-- FormSubmit.co Configuration -->
+        <input type="hidden" name="_subject" value="MSID School New Contact">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" :value="successUrl">
+        <input type="hidden" name="_language" :value="isArabic ? 'العربية' : (isGerman ? 'Deutsch' : 'English')">
+        
         <div class="form-section">
           <h3>{{ t('معلومات الطالب', 'Student Information', 'Schülerinformationen') }}</h3>
           
@@ -13,6 +24,7 @@
             <input 
               v-model="formData.studentName" 
               type="text" 
+              name="student_name"
               :id="`studentName-${formId}`"
               required
               :placeholder="isArabic ? 'أدخل الاسم الكامل للطالب' : 'Enter student\'s full name'"
@@ -26,7 +38,8 @@
               </label>
               <input 
                 v-model="formData.age" 
-                type="number" 
+                type="number"
+                name="student_age"
                 :id="`age-${formId}`"
                 min="5"
                 :placeholder="isArabic ? 'مثال: 10' : 'e.g., 10'"
@@ -37,7 +50,7 @@
               <label :for="`currentLevel-${formId}`">
                 {{ isArabic ? 'المستوى الحالي' : 'Current Level' }}
               </label>
-              <select v-model="formData.currentLevel" :id="`currentLevel-${formId}`">
+              <select v-model="formData.currentLevel" name="current_level" :id="`currentLevel-${formId}`">
                 <option value="beginner">
                   {{ isArabic ? 'مبتدئ - لا يعرف القراءة والكتابة' : 'Beginner - Cannot read or write' }}
                 </option>
@@ -61,7 +74,8 @@
             </label>
             <input 
               v-model="formData.parentName" 
-              type="text" 
+              type="text"
+              name="parent_name"
               :id="`parentName-${formId}`"
               :placeholder="isArabic ? 'أدخل اسم ولي الأمر' : 'Enter parent/guardian name'"
             />
@@ -75,7 +89,8 @@
               </label>
               <input 
                 v-model="formData.email" 
-                type="email" 
+                type="email"
+                name="email"
                 :id="`email-${formId}`"
                 required
                 placeholder="example@email.com"
@@ -90,7 +105,8 @@
               </label>
               <input 
                 v-model="formData.phone" 
-                type="tel" 
+                type="tel"
+                name="phone"
                 :id="`phone-${formId}`"
                 required
                 placeholder="+1234567890"
@@ -105,7 +121,8 @@
             </label>
             <input 
               v-model="formData.country" 
-              type="text" 
+              type="text"
+              name="country"
               :id="`country-${formId}`"
               :placeholder="isArabic ? 'مثال: ألمانيا، فرنسا، أمريكا' : 'e.g., Germany, France, USA'"
             />
@@ -120,7 +137,7 @@
               <label :for="`preferredLanguage-${formId}`">
                 {{ isArabic ? 'لغة التدريس المفضلة' : 'Preferred Teaching Language' }}
               </label>
-              <select v-model="formData.preferredLanguage" :id="`preferredLanguage-${formId}`">
+              <select v-model="formData.preferredLanguage" name="preferred_language" :id="`preferredLanguage-${formId}`">
                 <option value="arabic">
                   {{ isArabic ? 'العربية فقط' : 'Arabic Only' }}
                 </option>
@@ -137,7 +154,7 @@
               <label :for="`classesPerWeek-${formId}`">
                 {{ isArabic ? 'عدد الحصص في الأسبوع' : 'Classes per Week' }}
               </label>
-              <select v-model="formData.classesPerWeek" :id="`classesPerWeek-${formId}`">
+              <select v-model="formData.classesPerWeek" name="classes_per_week" :id="`classesPerWeek-${formId}`">
                 <option value="1">{{ isArabic ? 'حصة واحدة' : '1 class' }}</option>
                 <option value="2">{{ isArabic ? 'حصتان' : '2 classes' }}</option>
                 <option value="3">{{ isArabic ? '3 حصص' : '3 classes' }}</option>
@@ -154,7 +171,8 @@
             </label>
             <input 
               v-model="formData.preferredTime" 
-              type="text" 
+              type="text"
+              name="preferred_time"
               :id="`preferredTime-${formId}`"
               :placeholder="isArabic ? 'مثال: بعد الظهر، المساء، عطلة نهاية الأسبوع' : 'e.g., Afternoons, Evenings, Weekends'"
             />
@@ -165,7 +183,8 @@
               {{ isArabic ? 'هل لديك أي ملاحظات أو متطلبات خاصة؟' : 'Do you have any special notes or requirements?' }}
             </label>
             <textarea 
-              v-model="formData.additionalInfo" 
+              v-model="formData.additionalInfo"
+              name="additional_info"
               :id="`additionalInfo-${formId}`"
               rows="4"
               :placeholder="isArabic ? 'أخبرنا عن أي احتياجات خاصة أو معلومات تود مشاركتها...' : 'Tell us about any special needs or information you\'d like to share...'"
@@ -182,20 +201,6 @@
           </button>
         </div>
       </form>
-    </div>
-    
-    <div v-else class="success-message">
-      <h2>✅ {{ isArabic ? 'تم استلام طلبك بنجاح!' : 'Your request has been received successfully!' }}</h2>
-      <p>{{ isArabic 
-        ? 'شكرًا لاختيارك مسيد أونلاين. سيتواصل معك فريقنا خلال 24 ساعة لترتيب حصتك التجريبية المجانية.' 
-        : 'Thank you for choosing MSID Online. Our team will contact you within 24 hours to arrange your free trial class.' 
-      }}</p>
-      <p>{{ isArabic ? 'إذا كان لديك أي استفسار عاجل، يمكنك التواصل معنا عبر:' : 'If you have any urgent inquiries, you can reach us via:' }}</p>
-      <ul>
-        <li>📧 {{ isArabic ? 'البريد الإلكتروني:' : 'Email:' }} onlinemsid@gmail.com</li>
-        <li>📱 {{ isArabic ? 'واتساب:' : 'WhatsApp:' }} <a href="https://wa.me/212779164257">+212 779-164257</a></li>
-      </ul>
-    </div>
   </div>
 </template>
 
@@ -211,10 +216,28 @@ const formId = Math.random().toString(36).substr(2, 9)
 // Language detection that works with SSR
 const isArabic = ref(true)
 const isGerman = ref(false)
+const successUrl = ref('')
+
 onMounted(() => {
   const path = page.value.relativePath
   isArabic.value = !path.startsWith('en/') && !path.startsWith('de/')
   isGerman.value = path.startsWith('de/')
+  
+  // Set thank you page URL based on current page language
+  if (typeof window !== 'undefined') {
+    const origin = window.location.origin
+    
+    // Determine the thank you page URL based on language
+    if (isGerman.value) {
+      successUrl.value = `${origin}/de/thanks`
+    } else if (!isArabic.value) {
+      // English
+      successUrl.value = `${origin}/en/thanks`
+    } else {
+      // Arabic (default)
+      successUrl.value = `${origin}/thanks`
+    }
+  }
 })
 
 // Translation helper
@@ -239,66 +262,11 @@ const formData = ref({
 const isSubmitting = ref(false)
 const isSubmitted = ref(false)
 
-const submitForm = async () => {
+const handleSubmit = (event) => {
+  // Set loading state
   isSubmitting.value = true
-  
-  // Prepare email content
-  const subject = isArabic.value 
-    ? `تسجيل جديد - ${formData.value.studentName}`
-    : `New Enrollment - ${formData.value.studentName}`
-    
-  const body = isArabic.value ? `
-تسجيل جديد من موقع MSID
-
-معلومات الطالب:
-- اسم الطالب: ${formData.value.studentName}
-- اسم ولي الأمر: ${formData.value.parentName}
-- العمر: ${formData.value.age}
-- المستوى الحالي: ${formData.value.currentLevel === 'beginner' ? 'مبتدئ' : formData.value.currentLevel === 'intermediate' ? 'متوسط' : 'متقدم'}
-
-معلومات التواصل:
-- البريد الإلكتروني: ${formData.value.email}
-- رقم الهاتف: ${formData.value.phone}
-- بلد الإقامة: ${formData.value.country}
-
-تفضيلات الدراسة:
-- لغة التدريس المفضلة: ${formData.value.preferredLanguage === 'arabic' ? 'العربية' : formData.value.preferredLanguage === 'english' ? 'الإنجليزية' : 'العربية والإنجليزية'}
-- عدد الحصص في الأسبوع: ${formData.value.classesPerWeek}
-- الوقت المفضل: ${formData.value.preferredTime}
-
-معلومات إضافية:
-${formData.value.additionalInfo || 'لا توجد'}
-  ` : `
-New enrollment from MSID website
-
-Student Information:
-- Student Name: ${formData.value.studentName}
-- Parent/Guardian Name: ${formData.value.parentName}
-- Age: ${formData.value.age}
-- Current Level: ${formData.value.currentLevel}
-
-Contact Information:
-- Email: ${formData.value.email}
-- Phone: ${formData.value.phone}
-- Country of Residence: ${formData.value.country}
-
-Study Preferences:
-- Preferred Teaching Language: ${formData.value.preferredLanguage === 'arabic' ? 'Arabic' : formData.value.preferredLanguage === 'english' ? 'English' : 'Both Arabic and English'}
-- Classes per Week: ${formData.value.classesPerWeek}
-- Preferred Time: ${formData.value.preferredTime}
-
-Additional Information:
-${formData.value.additionalInfo || 'None'}
-  `
-  
-  // Create mailto link
-  const mailtoLink = `mailto:onlinemsid@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body.trim())}`
-  window.open(mailtoLink, '_blank')
-  
-  setTimeout(() => {
-    isSubmitting.value = false
-    isSubmitted.value = true
-  }, 1000)
+  // Form will submit naturally to FormSubmit.co
+  // FormSubmit will send the email and redirect back to _next URL
 }
 </script>
 
