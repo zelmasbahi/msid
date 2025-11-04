@@ -128,4 +128,4 @@ Book your free trial class today and discover the difference!
 ### Contact Us
 
 📧 info@msid.ma  
-📱 WhatsApp: [+212 XXX XXX XXX](https://wa.me/212XXXXXXXXX)
+📱 WhatsApp: [+212 779-164257](https://wa.me/212779164257)

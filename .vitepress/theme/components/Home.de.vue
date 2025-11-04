@@ -2,22 +2,27 @@
 
 <template>
   <!-- Hero Section -->
-  <section id="hero" dir="rtl">
+  <section id="hero">
     <div class="logo-container">
-      <img src="/msid-logo.jpg" alt="MSID Online Logo" class="msid-logo" />
+      <img
+        src="/msid-logo.jpg"
+        alt="MSID Online Logo"
+        class="msid-logo"
+      />
     </div>
     <h1 class="tagline">
       <span class="title-with-en accent">
-        <span class="main-title">المسيد عن بعد</span>
-        <span class="title-en-inline" dir="ltr">MSID online </span>
+        <span class="title-en-inline" dir="ltr">MSID online</span>
       </span>
       <br />
-      <span class="accent">حصن الطفل المسلم</span>
+      <span class="accent">Festung des muslimischen Kindes</span>
     </h1>
-    <p class="description">ملاذ أبناءك في الغربة لحفظ دينهم</p>
+    <p class="description">
+      Die Zuflucht Ihrer Kinder im Ausland, um ihren Glauben zu bewahren
+    </p>
     <p class="actions">
-      <a class="get-started" href="/enroll">
-        ابدأ التعلّم الآن
+      <a class="get-started" href="/de/enroll">
+        Jetzt mit dem Lernen beginnen
         <svg
           class="icon"
           xmlns="http://www.w3.org/2000/svg"
@@ -30,120 +35,134 @@
           />
         </svg>
       </a>
-      <a class="setup" href="/sponsor/">عرض الأسعار</a>
+      <a class="setup" href="/de/sponsor/">Preise ansehen</a>
     </p>
   </section>
 
   <!-- Welcome Section -->
-  <section id="welcome" class="content-section" dir="rtl">
+  <section id="welcome" class="content-section">
     <div class="container">
-      <h2 class="section-title">أهلاً وسهلاً بكم في مسيد عن بعد</h2>
+      <h2 class="section-title">Willkommen bei MSID Online</h2>
       <div class="welcome-content">
         <p>
-          في عالمٍ تتسارع فيه الحياة وتزداد فيه التحديات، يبقى العلم نورًا
-          لا يبهت، وجسرًا يربط أبناءنا بجذورهم وهويتهم أينما كانوا.
+          In a world where life accelerates and challenges increase,
+          knowledge remains an unwavering light and a bridge connecting our
+          children to their roots and identity wherever they are.
         </p>
         <p>
-          من هذا الإيمان وُلد <strong>مسيد أونلاين</strong> — منصة تعليمية
-          تحمل رسالة سامية: أن نجعل من التعلم رحلة ممتعة، أصيلة، وملهمة.
+          From this belief, <strong>MSID Online</strong> was born — an
+          educational platform carrying a noble mission: to make learning
+          an enjoyable, authentic, and inspiring journey.
         </p>
         <p>
-          في مسيد أونلاين، نمزج بين جمال التعليم الأصيل وفاعلية الأساليب
-          الحديثة، لنقدّم تجربة تعليمية متكاملة تُغذّي العقل، وتُهذّب
-          الروح، وتزرع الثقة في النفس.
+          At MSID Online, we blend the beauty of traditional education with
+          the effectiveness of modern methods to provide a comprehensive
+          learning experience that nourishes the mind, refines the soul,
+          and builds self-confidence.
         </p>
         <p class="highlight">
-          هنا، لا نُعلّم فقط — بل نرافق كل متعلّم في رحلته، نحتفي بتقدّمه،
-          ونؤمن أن كل خطوة يتخذها في طريق العلم هي بناء لمستقبل أكثر
-          إشراقًا وثقة.
+          Here, we don't just teach — we accompany each learner on their
+          journey, celebrate their progress, and believe that every step
+          they take on the path of knowledge builds a brighter and more
+          confident future.
         </p>
       </div>
     </div>
   </section>
 
   <!-- Our Motivation -->
-  <section id="motivation" class="content-section alt-bg" dir="rtl">
+  <section id="motivation" class="content-section alt-bg">
     <div class="container">
-      <h2 class="section-title">دوافعنا</h2>
+      <h2 class="section-title">Our Motivation</h2>
       <div class="motivation-content">
         <p>
-          انطلق مشروع <strong>مسيد أونلاين</strong> من إيماننا العميق
-          بأهمية التعليم الأصيل والمتوازن، الذي يجمع بين القيم الإسلامية
-          والمهارات العصرية.
+          The <strong>MSID Online</strong> project was launched from our
+          deep belief in the importance of authentic and balanced education
+          that combines Islamic values with contemporary skills.
         </p>
         <p>
-          لاحظنا أن أبناء الجالية العربية والمسلمة في الخارج يواجهون صعوبات
-          في تعلم اللغة العربية وحفظ القرآن الكريم وفهم الدين بلغتهم الأم،
-          فكانت فكرتنا أن نمدّ إليهم جسراً تعليمياً يربطهم بجذورهم وثقافتهم
-          أينما كانوا.
+          We noticed that children of the Arab and Muslim diaspora abroad
+          face difficulties in learning Arabic, memorizing the Quran, and
+          understanding their religion in their mother tongue. Our idea was
+          to extend an educational bridge connecting them to their roots
+          and culture wherever they are.
         </p>
         <p>
-          جاء مسيد أونلاين ليقدّم بيئة تعليمية آمنة ومرنة عبر الإنترنت،
-          تجمع بين حفظ وتفسير القرآن الكريم، تعليم اللغة العربية، ودروس
-          التربية الإسلامية.
+          MSID Online came to provide a safe and flexible learning
+          environment online, combining Quran memorization and
+          interpretation, Arabic language teaching, and Islamic education
+          lessons.
         </p>
         <p class="highlight">
-          <strong>هدفنا</strong> هو تمكين أبنائنا من الحفاظ على هويتهم،
-          وتنمية قدراتهم، وتعزيز ثقتهم بأنفسهم، من خلال تعليم هادف يعتمد
-          على الجودة، البساطة، والاهتمام الفردي بكل متعلم، سواء كان طفلًا
-          أو راشدًا.
+          <strong>Our goal</strong> is to enable our children to preserve
+          their identity, develop their abilities, and strengthen their
+          self-confidence through purposeful education that relies on
+          quality, simplicity, and individual attention to each learner,
+          whether child or adult.
         </p>
       </div>
     </div>
   </section>
 
   <!-- Our Offers -->
-  <section id="offers" class="content-section" dir="rtl">
+  <section id="offers" class="content-section">
     <div class="container">
-      <h2 class="section-title">عروضنا التعليمية</h2>
+      <h2 class="section-title">Our Educational Offers</h2>
       <div class="features-grid">
         <div class="feature-card">
           <div class="feature-icon">🕐</div>
-          <h3>تعلّم في أي وقت ومن أي مكان</h3>
+          <h3>Learn Anytime, Anywhere</h3>
           <p>
-            نوفر لك تجربة تعليمية مرنة تناسب جدولك وحياتك، سواء كنت طالبًا،
-            أو موظفًا، أو ولي أمر يبحث عن تعليم مميز لأبنائه.
+            We provide you with a flexible learning experience that fits
+            your schedule and lifestyle, whether you're a student,
+            employee, or parent looking for quality education for your
+            children.
           </p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">📖</div>
-          <h3>جودة تعليمية عالية في القرآن واللغة العربية</h3>
+          <h3>High-Quality Education in Quran and Arabic</h3>
           <p>
-            برامج متكاملة في حفظ القرآن الكريم وتجويده، تعليم اللغة
-            العربية، والتربية الإسلامية، مصممة خصيصًا للأطفال، واليافعين،
-            والراشدين.
+            Comprehensive programs in Quran memorization and Tajweed,
+            Arabic language teaching, and Islamic education, specially
+            designed for children, teens, and adults.
           </p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">👤</div>
-          <h3>متابعة فردية لكل متعلّم</h3>
+          <h3>Individual Follow-up for Each Learner</h3>
           <p>
-            لكل طالب خطة تعليمية تناسب مستواه وسرعته، مع حصص فردية وتفاعل
-            مباشر مع المعلّم لضمان أفضل النتائج.
+            Each student has a personalized learning plan that suits their
+            level and pace, with one-on-one sessions and direct interaction
+            with teachers to ensure the best results.
           </p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">🎯</div>
-          <h3>تعليم تفاعلي ممتع</h3>
+          <h3>Interactive and Engaging Learning</h3>
           <p>
-            دروس مدعومة بفيديوهات، بطاقات، اختبارات قصيرة، وأنشطة تفاعلية
-            تجعل التعلّم رحلة شيّقة وسهلة الفهم.
+            Lessons supported by videos, flashcards, quizzes, and
+            interactive activities that make learning an enjoyable and
+            easy-to-understand journey.
           </p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">💪</div>
-          <h3>تعلّم بالتطبيق والتدريب المستمر</h3>
+          <h3>Learn Through Practice and Continuous Training</h3>
           <p>
-            في مسيد أونلاين، لا نكتفي بالشرح النظري، بل نمنح المتعلّم فرصًا
-            للتدرب العملي والممارسة المتكررة حتى يتقن المهارة بثقة.
+            At MSID Online, we don't stop at theoretical explanation—we
+            give learners opportunities for practical training and repeated
+            practice until they master the skill with confidence.
           </p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">🌟</div>
-          <h3>بيئة تعليمية آمنة وملهمة</h3>
+          <h3>Safe and Inspiring Learning Environment</h3>
           <p>
-            نوفر فضاءً تربويًا راقيًا يُنمّي القيم والهوية، ويغرس في
-            المتعلّمين حبّ العلم والانتماء بلغة تجمع بين الأصالة والمعاصرة.
+            We provide an outstanding educational space that develops
+            values and identity, instilling in learners a love of knowledge
+            and belonging through a language that combines authenticity and
+            modernity.
           </p>
         </div>
       </div>
@@ -151,48 +170,52 @@
   </section>
 
   <!-- Our Approach -->
-  <section id="approach" class="content-section alt-bg" dir="rtl">
+  <section id="approach" class="content-section alt-bg">
     <div class="container">
-      <h2 class="section-title">منهجيتنا التعليمية</h2>
+      <h2 class="section-title">Our Educational Methodology</h2>
       <p class="section-intro">
-        في مسيد أونلاين، نؤمن بأن التعليم الفعّال يحدث عندما تلتقي الحكمة
-        التقليدية بالابتكار الحديث. منهجيتنا التعليمية مبنية على أربع ركائز
-        أساسية:
+        At MSID Online, we believe that effective learning happens when
+        traditional wisdom meets modern innovation. Our teaching
+        methodology is built on four core pillars:
       </p>
       <div class="approach-grid">
         <div class="approach-card">
           <div class="approach-icon">🎓</div>
-          <h3>مسارات تعليمية مخصصة</h3>
+          <h3>Personalized Learning Paths</h3>
           <p>
-            كل طالب فريد من نوعه. نقيّم مستوى كل متعلم، وأسلوب تعلمه،
-            وأهدافه لإنشاء منهج مخصص يضمن تقدمًا ثابتًا وتحفيزًا مستدامًا.
+            Every student is unique. We assess each learner's current
+            level, learning style, and goals to create a customized
+            curriculum that ensures steady progress and sustained
+            motivation.
           </p>
         </div>
         <div class="approach-card">
           <div class="approach-icon">👨‍🏫</div>
-          <h3>معلمون خبراء من أهل اللغة</h3>
+          <h3>Expert Native Teachers</h3>
           <p>
-            معلمونا المختارون بعناية ليسوا فقط خبراء في مجالاتهم، بل هم
-            أيضًا مربّون شغوفون يفهمون تحديات تعليم العربية والدراسات
-            الإسلامية لأبناء الجاليات.
+            Our carefully selected teachers are not only experts in their
+            fields but also passionate educators who understand the
+            challenges of teaching Arabic and Islamic studies to diaspora
+            communities.
           </p>
         </div>
         <div class="approach-card">
           <div class="approach-icon">📱</div>
-          <h3>تكنولوجيا حديثة، قيم أصيلة</h3>
+          <h3>Modern Technology, Traditional Values</h3>
           <p>
-            نستفيد من أحدث التقنيات التعليمية — منصات تفاعلية، موارد متعددة
-            الوسائط، وأنظمة ملاحظات فورية — مع الحفاظ على أساليب التدريس
-            الأصيلة التي أثبتت فعاليتها عبر القرون.
+            We leverage cutting-edge educational technology—interactive
+            platforms, multimedia resources, and real-time feedback
+            systems—while staying true to authentic teaching methods that
+            have proven effective for centuries.
           </p>
         </div>
         <div class="approach-card">
           <div class="approach-icon">🔄</div>
-          <h3>تقييم مستمر وتحسين دائم</h3>
+          <h3>Continuous Assessment & Improvement</h3>
           <p>
-            التقييمات المنتظمة، تقارير التقدم، والتواصل بين المعلم وولي
-            الأمر تضمن أن كل طالب يسير على المسار الصحيح ويحسّن مهاراته
-            باستمرار.
+            Regular evaluations, progress reports, and parent-teacher
+            communication ensure that each student stays on track and
+            continuously improves their skills.
           </p>
         </div>
       </div>
@@ -200,112 +223,118 @@
   </section>
 
   <!-- Pricing -->
-  <section id="pricing" class="content-section alt-bg" dir="rtl">
+  <section id="pricing" class="content-section alt-bg">
     <div class="container">
-      <h2 class="section-title">خطط التعلم المرنة</h2>
+      <h2 class="section-title">Flexible Learning Plans</h2>
       <p class="section-intro">
-        اختر الخطة التي تناسب احتياجاتك وأسلوب حياتك:
+        Choose the plan that fits your needs and lifestyle:
       </p>
       <div class="pricing-grid">
         <div class="pricing-card">
           <div class="plan-icon">💶</div>
-          <h3>الخطة المرنة</h3>
-          <p class="plan-subtitle">ادفع فقط مقابل الوقت الذي تدرس فيه</p>
+          <h3>Flexible Plan</h3>
+          <p class="plan-subtitle">Pay only for the time you study</p>
           <ul class="plan-features">
-            <li>مرونة كاملة في الجدولة</li>
-            <li>لا التزامات شهرية</li>
-            <li>مثالية للجداول غير المنتظمة</li>
+            <li>Complete scheduling flexibility</li>
+            <li>No monthly commitments</li>
+            <li>Ideal for irregular schedules</li>
           </ul>
-          <p class="plan-price"><strong>8 يورو/الساعة</strong></p>
+          <p class="plan-price"><strong>€8/Stunde</strong></p>
         </div>
         <div class="pricing-card">
           <div class="plan-icon">📅</div>
-          <h3>الخطة الشهرية</h3>
-          <p class="plan-subtitle">للتقدم الثابت والممارسة المستمرة</p>
+          <h3>Monthly Plan</h3>
+          <p class="plan-subtitle">
+            For steady progress and consistent practice
+          </p>
           <ul class="plan-features">
-            <li>8 ساعات شهريًا</li>
-            <li>حصتان أسبوعيًا (ساعة لكل حصة)</li>
-            <li>كل حصة = ساعة + 10 دقائق استراحة</li>
-            <li>سعر مخفض مقارنة بالساعة الفردية</li>
+            <li>8 hours total</li>
+            <li>2 classes per week (1 hour each)</li>
+            <li>Each class = 1 hour + 10-minute break</li>
+            <li>Discounted rate compared to hourly</li>
           </ul>
-          <p class="plan-price"><strong>60 يورو/شهريًا</strong></p>
+          <p class="plan-price"><strong>€60/month</strong></p>
         </div>
         <div class="pricing-card featured">
-          <div class="plan-badge">الأكثر شعبية</div>
+          <div class="plan-badge">Most Popular</div>
           <div class="plan-icon">🚀</div>
-          <h3>الخطة المكثفة</h3>
-          <p class="plan-subtitle">للمتعلمين السريعين والتحسن السريع!</p>
+          <h3>Intensive Monthly Plan</h3>
+          <p class="plan-subtitle">
+            For fast learners and quick improvement!
+          </p>
           <ul class="plan-features">
-            <li>16 ساعة شهريًا</li>
-            <li>4 حصص أسبوعيًا</li>
-            <li>كل حصة = ساعة + 10 دقائق استراحة</li>
-            <li>أفضل قيمة مقابل المال</li>
-            <li>أولوية في اختيار المواعيد</li>
+            <li>16 hours total</li>
+            <li>4 classes weekly</li>
+            <li>Each class = 1 hour + 10-minute break</li>
+            <li>Best value for money</li>
+            <li>Priority scheduling</li>
           </ul>
-          <p class="plan-price"><strong>100 يورو/شهريًا</strong></p>
+          <p class="plan-price"><strong>€100/month</strong></p>
         </div>
       </div>
       <div class="pricing-note">
         <p>
-          <strong>خصومات خاصة:</strong> خصم عائلي 10% للطفل الثاني • خصم 5%
-          عند الدفع لـ 3 أشهر مقدمًا
+          <strong>Special Discounts:</strong> Family discount 10% for 2nd
+          child • 5% off when paying 3 months in advance
         </p>
       </div>
     </div>
   </section>
 
   <!-- FAQ -->
-  <section id="faq" class="content-section" dir="rtl">
+  <section id="faq" class="content-section">
     <div class="container">
-      <h2 class="section-title">الأسئلة الشائعة</h2>
+      <h2 class="section-title">Frequently Asked Questions</h2>
       <div class="faq-grid">
         <div class="faq-item">
-          <h3>كيف تعمل الحصص عبر الإنترنت؟</h3>
+          <h3>How do online classes work?</h3>
           <p>
-            نستخدم منصات مؤتمرات فيديو آمنة حيث يلتقي الطلاب بمعلميهم
-            لجلسات حية وتفاعلية. كل ما تحتاجه هو جهاز (كمبيوتر، جهاز لوحي،
-            أو هاتف ذكي) واتصال إنترنت مستقر.
+            We use secure video conferencing platforms where students meet
+            their teachers for live, interactive sessions. All you need is
+            a device (computer, tablet, or smartphone) and a stable
+            internet connection.
           </p>
         </div>
         <div class="faq-item">
-          <h3>ما هي الأعمار التي تدرّسونها؟</h3>
+          <h3>What ages do you teach?</h3>
           <p>
-            نقدم برامج لجميع الأعمار: الأطفال (5-12 سنة)، المراهقون (13-17
-            سنة)، والبالغون (18+).
+            We offer programs for all ages: Children (5-12 years), Teens
+            (13-17 years), and Adults (18+).
           </p>
         </div>
         <div class="faq-item">
-          <h3>هل أحتاج معرفة مسبقة باللغة العربية؟</h3>
+          <h3>Do I need prior knowledge of Arabic?</h3>
           <p>
-            لا! نقبل المبتدئين تمامًا ونصمم خططًا مخصصة بناءً على مستواك
-            الحالي.
+            No! We accept complete beginners and design personalized plans
+            based on your current level.
           </p>
         </div>
         <div class="faq-item">
-          <h3>هل يمكنني اختيار معلمي؟</h3>
+          <h3>Can I choose my teacher?</h3>
           <p>
-            نعم، سنطابقك مع معلم بناءً على تفضيلاتك، ويمكنك طلب التغيير إذا
-            لزم الأمر.
+            Yes, we'll match you with a teacher based on your preferences,
+            and you can request a change if needed.
           </p>
         </div>
         <div class="faq-item">
-          <h3>ماذا لو احتجت إعادة جدولة حصة؟</h3>
+          <h3>What if I need to reschedule a class?</h3>
           <p>
-            نقدم إعادة جدولة مرنة بإشعار مدته 24 ساعة. فقط اتصل بمعلمك أو
-            فريق الدعم لدينا.
+            We offer flexible rescheduling with 24-hour notice. Simply
+            contact your teacher or our support team.
           </p>
         </div>
         <div class="faq-item">
-          <h3>هل تقدمون شهادات؟</h3>
+          <h3>Do you provide certificates?</h3>
           <p>
-            نعم، يحصل الطلاب على شهادات عند إكمال كل مستوى من البرنامج.
+            Yes, students receive certificates upon completing each program
+            level.
           </p>
         </div>
       </div>
       <div class="faq-cta">
         <p>
-          <strong>هل لديك المزيد من الأسئلة؟</strong>
-          <a href="https://wa.me/212779164257">اتصل بنا ←</a>
+          <strong>Have more questions?</strong>
+          <a href="https://wa.me/212779164257">Contact us →</a>
         </p>
       </div>
     </div>
@@ -320,7 +349,7 @@ section {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -399,11 +428,11 @@ html:not(.dark) .accent,
       padding-box,
     linear-gradient(45deg, #42d392, #647eff) border-box;
   border: 2px solid transparent;
+  margin-left: 18px;
 }
 
-.actions .get-started,
 .actions .setup {
-  margin-right: 18px;
+  margin-left: 18px;
 }
 
 .actions .icon {
@@ -413,11 +442,10 @@ html:not(.dark) .accent,
   margin-left: 2px;
   fill: currentColor;
   transition: transform 0.2s;
-  transform: rotateY(180deg);
 }
 
 .actions .get-started:hover .icon {
-  transform: translateX(-2px) rotateY(180deg);
+  transform: translateX(2px);
 }
 
 .actions .get-started,
@@ -441,9 +469,6 @@ html:not(.dark) .accent,
   font-size: 48px;
   font-weight: 700;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  display: flex;
   margin-bottom: 1.2em;
   letter-spacing: -0.5px;
   color: var(--vt-c-text-1);
@@ -572,46 +597,6 @@ html:not(.dark) .accent,
   color: var(--vt-c-text-2);
 }
 
-/* Testimonials */
-.testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 32px;
-  margin-top: 40px;
-}
-
-.testimonial-card {
-  background: var(--vt-c-bg-soft);
-  border-radius: 12px;
-  padding: 32px 28px;
-  position: relative;
-}
-
-.testimonial-card::before {
-  content: '"';
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  font-size: 80px;
-  color: var(--vt-c-brand);
-  opacity: 0.2;
-  font-family: Georgia, serif;
-}
-
-.testimonial-text {
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--vt-c-text-1);
-  margin-bottom: 16px;
-  font-style: italic;
-}
-
-.testimonial-author {
-  font-size: 14px;
-  color: var(--vt-c-text-2);
-  font-weight: 500;
-}
-
 /* Pricing */
 .pricing-grid {
   display: grid;
@@ -644,8 +629,8 @@ html:not(.dark) .accent,
 .plan-badge {
   position: absolute;
   top: -12px;
-  right: 50%;
-  transform: translateX(50%);
+  left: 50%;
+  transform: translateX(-50%);
   background: var(--vt-c-brand);
   color: white;
   padding: 4px 16px;
@@ -676,7 +661,7 @@ html:not(.dark) .accent,
   list-style: none;
   padding: 0;
   margin: 24px 0;
-  text-align: right;
+  text-align: left;
 }
 
 .plan-features li {
@@ -724,6 +709,7 @@ html:not(.dark) .accent,
   padding: 24px;
   background: var(--vt-c-bg-soft);
   border-radius: 12px;
+  text-align: left;
 }
 
 .faq-item h3 {
@@ -773,7 +759,6 @@ html:not(.dark) .accent,
 
   .features-grid,
   .approach-grid,
-  .testimonials-grid,
   .pricing-grid {
     grid-template-columns: 1fr;
   }

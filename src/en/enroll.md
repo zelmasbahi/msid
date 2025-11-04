@@ -15,5 +15,5 @@ Fill out the form below and we'll contact you within 24 hours to arrange your fr
 If you prefer direct contact:
 
 - 📧 **Email**: info@msid.ma
-- 📱 **WhatsApp**: [+212 XXX XXX XXX](https://wa.me/212XXXXXXXXX)
+- 📱 **WhatsApp**: [+212 779-164257](https://wa.me/212779164257)
 - 📖 **FAQ**: [Click here](/en/about/faq)

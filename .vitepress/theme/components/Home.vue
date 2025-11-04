@@ -235,7 +235,7 @@
             <li>No monthly commitments</li>
             <li>Ideal for irregular schedules</li>
           </ul>
-          <p class="plan-price"><strong>€7/hour</strong></p>
+          <p class="plan-price"><strong>€8/hour</strong></p>
         </div>
         <div class="pricing-card">
           <div class="plan-icon">📅</div>
@@ -330,7 +330,7 @@
       <div class="faq-cta">
         <p>
           <strong>Have more questions?</strong>
-          <a href="https://wa.me/212XXXXXXXXX">Contact us →</a>
+          <a href="https://wa.me/212779164257">Contact us →</a>
         </p>
       </div>
     </div>

@@ -254,7 +254,7 @@ Usually **within 24 hours**. We'll contact you to schedule your trial session.
 **We're here to help!**
 
 📧 **Email**: info@msid.ma  
-📱 **WhatsApp**: +212 XXX XXX XXX  
+📱 **WhatsApp**: +212 779-164257  
 💬 **Contact Form**: [Click here to get in touch](#contact-form)
 
 [Book Free Trial Session →](#trial-booking)

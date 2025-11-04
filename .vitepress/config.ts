@@ -7,8 +7,8 @@ import { headerPlugin } from './headerMdPlugin'
 // Arabic Navigation (root)
 const navAr: ThemeConfig['nav'] = [
   {
-    text: '📱 +212 XXX XXX XXX',
-    link: 'https://wa.me/212XXXXXXXXX'
+    text: '📱 +212 779-164257',
+    link: 'https://wa.me/212779164257'
   },
   {
     text: 'المسيد',
@@ -45,14 +45,66 @@ const navAr: ThemeConfig['nav'] = [
   {
     text: '🇬🇧 English',
     link: '/en/'
+  },
+  {
+    text: '🇩🇪 Deutsch',
+    link: '/de/'
+  }
+]
+
+// German Navigation
+const navDe: ThemeConfig['nav'] = [
+  {
+    text: '📱 +212 779-164257',
+    link: 'https://wa.me/212779164257'
+  },
+  {
+    text: 'MSID',
+    link: '/de/'
+  },
+  {
+    text: 'Unsere Motivation',
+    link: '/de/motivation'
+  },
+  {
+    text: 'Unsere Prinzipien',
+    link: '/de/principles'
+  },
+  {
+    text: 'Unsere Angebote',
+    link: '/de/offers'
+  },
+  {
+    text: 'Unser Ansatz',
+    link: '/de/approach'
+  },
+  {
+    text: 'Preise',
+    link: '/de/sponsor/'
+  },
+  {
+    text: 'FAQ',
+    link: '/de/about/faq'
+  },
+  {
+    text: '🚀 Anmelden',
+    link: '/de/enroll'
+  },
+  {
+    text: '🇸🇦 العربية',
+    link: '/'
+  },
+  {
+    text: '🇬🇧 English',
+    link: '/en/'
   }
 ]
 
 // English Navigation
 const navEn: ThemeConfig['nav'] = [
   {
-    text: '📱 +212 XXX XXX XXX',
-    link: 'https://wa.me/212XXXXXXXXX'
+    text: '📱 +212 779-164257',
+    link: 'https://wa.me/212779164257'
   },
   {
     text: 'MSID',
@@ -89,6 +141,10 @@ const navEn: ThemeConfig['nav'] = [
   {
     text: '🇸🇦 العربية',
     link: '/'
+  },
+  {
+    text: '🇩🇪 Deutsch',
+    link: '/de/'
   }
 ]
 
@@ -140,14 +196,17 @@ export default defineConfigWithTheme<ThemeConfig>({
         // },
         nav: navAr,
         socialLinks: [
-          { icon: 'facebook', link: 'https://facebook.com/msidonline' }
+          {
+            icon: 'facebook',
+            link: 'https://www.facebook.com/profile.php?id=61583318579479'
+          }
         ],
         footer: {
           license: {
             text: 'MSID Online School',
             link: 'https://msid.ma'
           },
-          copyright: `حقوق المؤلف © 2025 MSID Online School | <a href="https://instagram.com/msidonline" style="color: inherit;">Instagram</a>`
+          copyright: `حقوق المؤلف © 2025 MSID Online School`
         }
       }
     },
@@ -163,14 +222,39 @@ export default defineConfigWithTheme<ThemeConfig>({
         // },
         nav: navEn,
         socialLinks: [
-          { icon: 'facebook', link: 'https://facebook.com/msidonline' }
+          {
+            icon: 'facebook',
+            link: 'https://www.facebook.com/profile.php?id=61583318579479'
+          }
         ],
         footer: {
           license: {
             text: 'MSID Online School',
             link: 'https://msid.ma'
           },
-          copyright: `Copyright © 2025 MSID Online School | <a href="https://instagram.com/msidonline" style="color: inherit;">Instagram</a>`
+          copyright: `Copyright © 2025 MSID Online School`
+        }
+      }
+    },
+    de: {
+      label: 'Deutsch',
+      lang: 'de-DE',
+      title: 'MSID Online Schule',
+      description: 'Identität durch Bildung bewahren',
+      themeConfig: {
+        nav: navDe,
+        socialLinks: [
+          {
+            icon: 'facebook',
+            link: 'https://www.facebook.com/profile.php?id=61583318579479'
+          }
+        ],
+        footer: {
+          license: {
+            text: 'MSID Online Schule',
+            link: 'https://msid.ma'
+          },
+          copyright: `Copyright © 2025 MSID Online Schule`
         }
       }
     }

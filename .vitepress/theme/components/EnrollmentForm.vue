@@ -3,7 +3,7 @@
     <div v-if="!isSubmitted">
       <form @submit.prevent="submitForm" class="enrollment-form">
         <div class="form-section">
-          <h3>{{ isArabic ? 'معلومات الطالب' : 'Student Information' }}</h3>
+          <h3>{{ t('معلومات الطالب', 'Student Information', 'Schülerinformationen') }}</h3>
           
           <div class="form-group">
             <label :for="`studentName-${formId}`">
@@ -193,7 +193,7 @@
       <p>{{ isArabic ? 'إذا كان لديك أي استفسار عاجل، يمكنك التواصل معنا عبر:' : 'If you have any urgent inquiries, you can reach us via:' }}</p>
       <ul>
         <li>📧 {{ isArabic ? 'البريد الإلكتروني:' : 'Email:' }} info@msid.ma</li>
-        <li>📱 {{ isArabic ? 'واتساب:' : 'WhatsApp:' }} <a href="https://wa.me/212XXXXXXXXX">+212 XXX XXX XXX</a></li>
+        <li>📱 {{ isArabic ? 'واتساب:' : 'WhatsApp:' }} <a href="https://wa.me/212779164257">+212 779-164257</a></li>
       </ul>
     </div>
   </div>
@@ -210,9 +210,17 @@ const formId = Math.random().toString(36).substr(2, 9)
 
 // Language detection that works with SSR
 const isArabic = ref(true)
+const isGerman = ref(false)
 onMounted(() => {
-  isArabic.value = page.value.relativePath.startsWith('en/') ? false : true
+  const path = page.value.relativePath
+  isArabic.value = !path.startsWith('en/') && !path.startsWith('de/')
+  isGerman.value = path.startsWith('de/')
 })
+
+// Translation helper
+const t = (ar, en, de) => {
+  return isArabic.value ? ar : (isGerman.value ? de : en)
+}
 
 const formData = ref({
   studentName: '',
