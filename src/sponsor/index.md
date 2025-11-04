@@ -115,5 +115,5 @@ sidebar: false
 :::
 
 ### تواصل معنا
-📧 info@msid.ma  
+📧 onlinemsid@gmail.com  
 📱 واتساب: [+212 779-164257](https://wa.me/212779164257)

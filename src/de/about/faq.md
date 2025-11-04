@@ -148,7 +148,7 @@ Ja! Jeder neue Schüler erhält:
 Haben Sie weitere Fragen? Wir sind für Sie da!
 
 ::: tip Kontaktieren Sie uns
-- 📧 **E-Mail**: info@msid.ma
+- 📧 **E-Mail**: onlinemsid@gmail.com
 - 📱 **WhatsApp**: [+212 779-164257](https://wa.me/212779164257)
 - 📞 **Rufen Sie uns an**: +212 779-164257
 

@@ -123,5 +123,5 @@ Buchen Sie noch heute Ihre kostenlose Probestunde und entdecken Sie den Untersch
 :::
 
 ### Kontaktieren Sie uns
-📧 info@msid.ma  
+📧 onlinemsid@gmail.com  
 📱 WhatsApp: [+212 779-164257](https://wa.me/212779164257)

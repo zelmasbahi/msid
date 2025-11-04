@@ -192,7 +192,7 @@
       }}</p>
       <p>{{ isArabic ? 'إذا كان لديك أي استفسار عاجل، يمكنك التواصل معنا عبر:' : 'If you have any urgent inquiries, you can reach us via:' }}</p>
       <ul>
-        <li>📧 {{ isArabic ? 'البريد الإلكتروني:' : 'Email:' }} info@msid.ma</li>
+        <li>📧 {{ isArabic ? 'البريد الإلكتروني:' : 'Email:' }} onlinemsid@gmail.com</li>
         <li>📱 {{ isArabic ? 'واتساب:' : 'WhatsApp:' }} <a href="https://wa.me/212779164257">+212 779-164257</a></li>
       </ul>
     </div>
@@ -292,7 +292,7 @@ ${formData.value.additionalInfo || 'None'}
   `
   
   // Create mailto link
-  const mailtoLink = `mailto:info@msid.ma?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body.trim())}`
+  const mailtoLink = `mailto:onlinemsid@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body.trim())}`
   window.open(mailtoLink, '_blank')
   
   setTimeout(() => {

@@ -253,7 +253,7 @@ Usually **within 24 hours**. We'll contact you to schedule your trial session.
 ::: tip Contact Us
 **We're here to help!**
 
-📧 **Email**: info@msid.ma  
+📧 **Email**: onlinemsid@gmail.com  
 📱 **WhatsApp**: +212 779-164257  
 💬 **Contact Form**: [Click here to get in touch](#contact-form)
 

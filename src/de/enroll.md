@@ -14,6 +14,6 @@ Füllen Sie das Formular unten aus und wir kontaktieren Sie innerhalb von 24 Stu
 
 Wenn Sie direkten Kontakt bevorzugen:
 
-- 📧 **E-Mail**: info@msid.ma
+- 📧 **E-Mail**: onlinemsid@gmail.com
 - 📱 **WhatsApp**: [+212 779-164257](https://wa.me/212779164257)
 - 📖 **FAQ**: [Klicken Sie hier](/de/about/faq)
