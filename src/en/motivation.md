@@ -2,11 +2,11 @@
 title: Our Motivation
 ---
 
-# Our Motivation for Establishing MSID Online
+# Our Motivation for Establishing Msid Online
 
 ## Our Mission
 
-The **MSID Online** project was launched from our deep belief in the importance of authentic and balanced education that combines Islamic values with contemporary skills.
+The **Msid Online** project was launched from our deep belief in the importance of authentic and balanced education that combines Islamic values with contemporary skills.
 
 In a world where life accelerates and challenges increase, knowledge remains an unwavering light and a bridge connecting our children to their roots and identity wherever they are.
 
@@ -24,7 +24,7 @@ We noticed that children of the Arab and Muslim diaspora abroad face numerous di
 
 Our idea was to extend an **educational bridge** connecting them to their roots and culture wherever they are.
 
-MSID Online came to provide a safe and flexible learning environment online, combining:
+Msid Online came to provide a safe and flexible learning environment online, combining:
 
 ✅ Quran memorization and interpretation  
 ✅ Classical Arabic language teaching  
@@ -55,10 +55,10 @@ Whether the learner is a child or adult, beginner or advanced, **we are here to 
 
 ## Start Today!
 
-Are you ready to join the MSID Online family?
+Are you ready to join the Msid Online family?
 
 ::: tip Next Step
 **Book your free trial session now!**
 
-[Book Now →](/en/about/faq) • [View Pricing →](/en/sponsor/)
+[Book Now →](/en/enroll) • [View Pricing →](/en/sponsor/)
 :::

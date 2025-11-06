@@ -8,7 +8,7 @@ title: Our Principles & Promise
 
 ### Our Sacred Mission
 
-At **MSID Online**, we believe that protecting the Islamic identity of Muslim children abroad is not just educational work, but a **sacred trust** and **religious responsibility** we carry on our shoulders.
+At **Msid Online**, we believe that protecting the Islamic identity of Muslim children abroad is not just educational work, but a **sacred trust** and **religious responsibility** we carry on our shoulders.
 
 ## 🌍 The Challenge Facing Our Children
 
@@ -39,7 +39,7 @@ We believe every Muslim child, wherever they are, deserves:
 
 ### 2. Quality is Non-Negotiable
 We commit to:
-- Selecting the best and most qualified teachers
+- Selecting qualified teachers
 - Using the latest educational methods
 - Precise follow-up for every student
 - Continuous development of our programs

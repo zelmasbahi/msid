@@ -6,7 +6,7 @@ title: Unser Ansatz
 
 ## Unsere Philosophie beim Unterrichten
 
-Bei **MSID Online** glauben wir, dass Bildung viel mehr ist als nur die Übertragung von Informationen. Es ist eine **Reise zur Entdeckung**, **Charakterbildung** und **Persönlichkeitsentwicklung**.
+Bei **Msid Online** glauben wir, dass Bildung viel mehr ist als nur die Übertragung von Informationen. Es ist eine **Reise zur Entdeckung**, **Charakterbildung** und **Persönlichkeitsentwicklung**.
 
 ## 🎯 Grundlagen unseres Ansatzes
 
@@ -32,7 +32,7 @@ Bei **MSID Online** glauben wir, dass Bildung viel mehr ist als nur die Übertra
 ### Für den Koranunterricht
 1. **Zuhören und Nachahmen** - Der Schüler hört dem Lehrer zu und wiederholt
 2. **Individuelle Rezitation** - Der Schüler rezitiert und der Lehrer korrigiert
-3. **Praktische Anwendung** - Tajweed-Regeln während der Rezitation üben
+3. **Praktische Anwendung** - Regeln während der Rezitation üben
 4. **Kontinuierliche Wiederholung** - Um das Auswendiggelernte zu festigen
 
 ### Für den Arabischunterricht

@@ -6,7 +6,7 @@ title: Unsere Angebote
 
 ## Unsere drei Hauptprogramme
 
-Bei **MSID Online** bieten wir spezialisierte Bildungsprogramme in drei Kernbereichen an, die für alle Altersgruppen und Niveaus konzipiert sind.
+Bei **Msid Online** bieten wir spezialisierte Bildungsprogramme in drei Kernbereichen an, die für alle Altersgruppen und Niveaus konzipiert sind.
 
 ## 📘 Arabische Sprache
 
@@ -68,7 +68,6 @@ Integrierter Lehrplan, der Folgendes bietet:
 
 #### Rezitation (Tilawah)
 - ✅ **Korrekte Aussprache** von Anfang an
-- ✅ **Tajweed-Regeln** praktisch
 - ✅ **Schöne Rezitation** mit richtiger Intonation
 - ✅ **Fehlerkorrektur** kontinuierlich
 

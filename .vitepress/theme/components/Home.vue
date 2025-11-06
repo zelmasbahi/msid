@@ -4,11 +4,11 @@
   <!-- Hero Section -->
   <section id="hero">
     <div class="logo-container">
-      <img src="/msid-logo.jpg" alt="MSID Online Logo" class="msid-logo" />
+      <img src="/msid-logo.jpg" alt="Msid Online Logo" class="msid-logo" />
     </div>
     <h1 class="tagline">
       <span class="title-with-en accent">
-        <span class="title-en-inline" dir="ltr">MSID online</span>
+        <span class="title-en-inline" dir="ltr">Msid online</span>
       </span>
       <br />
       <span class="accent">Fortress of the Muslim Child</span>
@@ -38,7 +38,7 @@
   <!-- Welcome Section -->
   <section id="welcome" class="content-section">
     <div class="container">
-      <h2 class="section-title">Welcome to MSID Online</h2>
+      <h2 class="section-title">Welcome to Msid Online</h2>
       <div class="welcome-content">
         <p>
           In a world where life accelerates and challenges increase,
@@ -46,12 +46,12 @@
           children to their roots and identity wherever they are.
         </p>
         <p>
-          From this belief, <strong>MSID Online</strong> was born — an
+          From this belief, <strong>Msid Online</strong> was born — an
           educational platform carrying a noble mission: to make learning
           an enjoyable, authentic, and inspiring journey.
         </p>
         <p>
-          At MSID Online, we blend the beauty of traditional education with
+          At Msid Online, we blend the beauty of traditional education with
           the effectiveness of modern methods to provide a comprehensive
           learning experience that nourishes the mind, refines the soul,
           and builds self-confidence.
@@ -72,7 +72,7 @@
       <h2 class="section-title">Our Motivation</h2>
       <div class="motivation-content">
         <p>
-          The <strong>MSID Online</strong> project was launched from our
+          The <strong>Msid Online</strong> project was launched from our
           deep belief in the importance of authentic and balanced education
           that combines Islamic values with contemporary skills.
         </p>
@@ -84,7 +84,7 @@
           and culture wherever they are.
         </p>
         <p>
-          MSID Online came to provide a safe and flexible learning
+          Msid Online came to provide a safe and flexible learning
           environment online, combining Quran memorization and
           interpretation, Arabic language teaching, and Islamic education
           lessons.
@@ -146,7 +146,7 @@
           <div class="feature-icon">💪</div>
           <h3>Learn Through Practice and Continuous Training</h3>
           <p>
-            At MSID Online, we don't stop at theoretical explanation—we
+            At Msid Online, we don't stop at theoretical explanation—we
             give learners opportunities for practical training and repeated
             practice until they master the skill with confidence.
           </p>
@@ -170,7 +170,7 @@
     <div class="container">
       <h2 class="section-title">Our Educational Methodology</h2>
       <p class="section-intro">
-        At MSID Online, we believe that effective learning happens when
+        At Msid Online, we believe that effective learning happens when
         traditional wisdom meets modern innovation. Our teaching
         methodology is built on four core pillars:
       </p>
@@ -306,16 +306,9 @@
           </p>
         </div>
         <div class="faq-item">
-          <h3>Can I choose my teacher?</h3>
-          <p>
-            Yes, we'll match you with a teacher based on your preferences,
-            and you can request a change if needed.
-          </p>
-        </div>
-        <div class="faq-item">
           <h3>What if I need to reschedule a class?</h3>
           <p>
-            We offer flexible rescheduling with 24-hour notice. Simply
+            We offer flexible rescheduling with advance notice. Simply
             contact your teacher or our support team.
           </p>
         </div>

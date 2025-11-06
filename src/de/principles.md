@@ -8,7 +8,7 @@ title: Unsere Prinzipien & Versprechen
 
 ### Unsere heilige Mission
 
-Bei **MSID Online** glauben wir, dass der Schutz der islamischen Identität muslimischer Kinder im Ausland nicht nur Bildungsarbeit ist, sondern ein **heiliges Vertrauen** und eine **religiöse Verantwortung**, die wir auf unseren Schultern tragen.
+Bei **Msid Online** glauben wir, dass der Schutz der islamischen Identität muslimischer Kinder im Ausland nicht nur Bildungsarbeit ist, sondern ein **heiliges Vertrauen** und eine **religiöse Verantwortung**, die wir auf unseren Schultern tragen.
 
 ## 🌍 Die Herausforderung für unsere Kinder
 

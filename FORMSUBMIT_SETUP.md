@@ -9,7 +9,7 @@ Your enrollment form is now using **FormSubmit.co** - a free, simple, and reliab
 ✅ Form configured to send submissions to: **onlinemsid@gmail.com**  
 ✅ All form fields have proper `name` attributes  
 ✅ FormSubmit configuration added (subject, template, redirect)  
-✅ **Email subject**: "MSID School New Contact"  
+✅ **Email subject**: "Msid School New Contact"  
 ✅ **Thank you pages** created in all 3 languages  
 ✅ Users redirected to beautiful thank you page after submission  
 ✅ Works in Arabic, English, and German  
@@ -46,7 +46,7 @@ This is a **one-time security step** to prevent spam.
 2. **Sent to FormSubmit.co** server
 
 3. **Email sent to you** at `onlinemsid@gmail.com` with:
-   - Subject: **"MSID School New Contact"**
+   - Subject: **"Msid School New Contact"**
    - All form data in a nice table format
    - Reply-to set to the applicant's email
 
@@ -87,7 +87,7 @@ Your form uses these settings:
 action="https://formsubmit.co/onlinemsid@gmail.com"
 
 <!-- Configuration -->
-_subject: "MSID School New Contact"
+_subject: "Msid School New Contact"
 _captcha: false (disabled for better UX)
 _template: table (clean email format)
 _next: /thanks or /en/thanks or /de/thanks (based on language)
@@ -100,7 +100,7 @@ _language: Auto-detected (Arabic/English/German)
 
 When someone submits, you'll get an email like this:
 
-**Subject**: MSID School New Contact
+**Subject**: Msid School New Contact
 
 | Field | Value |
 |-------|-------|

@@ -19,7 +19,7 @@ onMounted(() => {
 
 <div class="success-icon">🎉</div>
 
-## Vielen Dank, dass Sie sich für **MSID Online** entschieden haben!
+## Vielen Dank, dass Sie sich für **Msid Online** entschieden haben!
 
 Ihre Anmeldeanfrage wurde erfolgreich empfangen. Unser Team wird sich innerhalb von **24 Stunden** bei Ihnen melden, um Ihre kostenlose Probestunde zu vereinbaren.
 

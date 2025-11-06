@@ -2,7 +2,7 @@
 
 ## ✅ What's Complete
 
-Your MSID Online enrollment form is now fully functional with **FormSubmit.co** integration!
+Your Msid Online enrollment form is now fully functional with **FormSubmit.co** integration!
 
 ### Features:
 - ✅ Sends emails to: **onlinemsid@gmail.com**
@@ -46,8 +46,8 @@ Check **onlinemsid@gmail.com**:
 Every enrollment submission will be emailed to you with:
 
 **Email Subject**: 
-- Arabic: "تسجيل جديد من موقع MSID"
-- English/German: "New Enrollment from MSID Website"
+- Arabic: "تسجيل جديد من موقع Msid"
+- English/German: "New Enrollment from Msid Website"
 
 **Email Content** (clean table format):
 - Student name & age
@@ -132,9 +132,9 @@ Form automatically detects page language:
 
 | Language | Subject Line | Success Message |
 |----------|--------------|-----------------|
-| Arabic | تسجيل جديد من موقع MSID | تم استلام طلبك بنجاح! |
-| English | New Enrollment from MSID Website | Your request has been received successfully! |
-| German | New Enrollment from MSID Website | Your request has been received successfully! |
+| Arabic | تسجيل جديد من موقع Msid | تم استلام طلبك بنجاح! |
+| English | New Enrollment from Msid Website | Your request has been received successfully! |
+| German | New Enrollment from Msid Website | Your request has been received successfully! |
 
 ---
 

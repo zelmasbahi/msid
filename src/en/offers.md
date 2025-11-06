@@ -6,7 +6,7 @@ title: Our Offers
 
 ## Our Three Main Programs
 
-At **MSID Online**, we offer specialized educational programs in three core areas, designed for all ages and levels.
+At **Msid Online**, we offer specialized educational programs in three core areas, designed for all ages and levels.
 
 ## 📘 Arabic Language
 
@@ -75,7 +75,6 @@ At **MSID Online**, we offer specialized educational programs in three core area
 
 ### 🎯 Recitation Teaching
 - Teaching letters and their correct pronunciation
-- Basic and advanced Tajweed rules
 - Proper recitation according to rules
 - Correcting common pronunciation errors
 
@@ -83,7 +82,6 @@ At **MSID Online**, we offer specialized educational programs in three core area
 - Proven scientific methodology for perfect memorization
 - Flexible memorization plans based on available time
 - Organized and continuous periodic reviews
-- Ijazah in Quran for outstanding students
 
 ### 💭 Lessons in Contemplating Meanings
 - Simplified Tafsir of verses

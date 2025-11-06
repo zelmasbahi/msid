@@ -6,8 +6,8 @@ title: Häufig gestellte Fragen (FAQ)
 
 ## Allgemeine Fragen
 
-### Was ist MSID Online?
-**MSID Online** ist eine spezialisierte Online-Bildungsplattform, die muslimischen Kindern im Ausland arabische Sprache, Koran und islamische Studien beibringt, mit dem Ziel, ihre islamische Identität zu bewahren und sie mit ihren Wurzeln zu verbinden.
+### Was ist Msid Online?
+**Msid Online** ist eine spezialisierte Online-Bildungsplattform, die muslimischen Kindern im Ausland arabische Sprache, Koran und islamische Studien beibringt, mit dem Ziel, ihre islamische Identität zu bewahren und sie mit ihren Wurzeln zu verbinden.
 
 ### Wer kann von Ihren Diensten profitieren?
 Unsere Dienste richten sich an:
@@ -77,16 +77,11 @@ Alle unsere Lehrer sind:
 - **Erfahren** im Online-Unterricht
 - **Geschult** im Umgang mit Kindern
 
-### Kann ich meinen Lehrer wählen?
-- Sie können Ihre **Präferenzen** angeben (männlich/weiblich)
-- Wir **weisen den am besten geeigneten Lehrer** basierend auf den Bedürfnissen zu
-- **Wechsel möglich**, wenn nötig
-
 ## Fragen zu Preisen und Zahlung
 
 ### Was sind Ihre Preise?
 Wir bieten drei Pläne an:
-1. **Flexibler Plan** - 8€ pro Stunde
+1. **Flexibler Plan** - 8€ pro Unterrichtsstunde (1 Stunde + 10 Minuten Pause)
 2. **Monatsplan** - 60€ für 8 Stunden
 3. **Intensiver Monatsplan** - 100€ für 16 Stunden
 

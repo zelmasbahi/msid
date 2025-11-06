@@ -19,7 +19,7 @@ onMounted(() => {
 
 <div class="success-icon">🎉</div>
 
-## Thank you for choosing **MSID Online**!
+## Thank you for choosing **Msid Online**!
 
 Your enrollment request has been successfully received. Our team will contact you within **24 hours** to arrange your free trial class.
 

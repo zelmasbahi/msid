@@ -4,13 +4,13 @@ title: Frequently Asked Questions
 
 # Frequently Asked Questions
 
-## General Questions about MSID Online
+## General Questions about Msid Online
 
-### What is MSID Online?
+### What is Msid Online?
 
-**MSID Online** is an educational platform specialized in teaching Quran, Arabic language, and Islamic studies online. We provide one-on-one sessions with expert native teachers for children and adults of the Arab and Muslim diaspora worldwide.
+**Msid Online** is an educational platform specialized in teaching Quran, Arabic language, and Islamic studies online. We provide one-on-one sessions with expert native teachers for children and adults of the Arab and Muslim diaspora worldwide.
 
-### Why choose MSID Online?
+### Why choose Msid Online?
 
 - ✅ **Expert teachers** - Native speakers and certified
 - ✅ **One-on-one sessions** (1:1) for full attention to each student
@@ -51,7 +51,7 @@ Yes! We offer complete flexibility in choosing times that fit your schedule, whe
 
 ### What if I miss a session or need to reschedule?
 
-You can reschedule any session with **24-hour** advance notice, or get a video recording of the session if you cannot attend.
+You can reschedule any session with advance notice, or get a video recording of the session if you cannot attend.
 
 ---
 
@@ -61,7 +61,7 @@ You can reschedule any session with **24-hour** advance notice, or get a video r
 
 We offer three main programs:
 
-1. **Quran Studies** - Recitation, Tajweed, memorization, and contemplation
+1. **Quran Studies** - Recitation, memorization, and contemplation
 2. **Arabic Language** - Reading, writing, grammar, and conversation
 3. **Islamic Studies** - Creed, jurisprudence, and Prophetic biography
 
@@ -93,18 +93,8 @@ We offer programs specially designed for all ages:
 All our teachers are:
 - ✅ **Native speakers** - Arabic mother tongue
 - ✅ **Academically qualified** - University degrees in specialization
-- ✅ **Ijazah holders** in Quran (for Quran teachers)
 - ✅ **Experienced** in online teaching
 - ✅ **Educationally trained** to work with different ages
-
-### Can I choose my teacher?
-
-Yes! We match you with a teacher based on:
-- Your preferences (male or female teacher)
-- Your level and goals
-- Time zone
-
-And you can request a change if needed.
 
 ---
 
@@ -179,7 +169,6 @@ Yes, you can cancel at any time without additional fees. Just let us know before
 
 Yes! Students receive:
 - **Certified certificates** upon completing each level
-- **Ijazah in Quran** for outstanding students
 - **Progress reports** - Periodic documentation
 
 ### How long does it take to complete one level?
@@ -235,7 +224,7 @@ Yes! And we offer **family discounts**:
 
 ## Registration and Getting Started
 
-### How do I start with MSID Online?
+### How do I start with Msid Online?
 
 1. **Book a free trial session** via the contact form
 2. **Meet the teacher** and assess your level
@@ -257,5 +246,5 @@ Usually **within 24 hours**. We'll contact you to schedule your trial session.
 📱 **WhatsApp**: +212 779-164257  
 💬 **Contact Form**: [Click here to get in touch](#contact-form)
 
-[Book Free Trial Session →](#trial-booking)
+[Book Free Trial Session →](/en/enroll)
 :::

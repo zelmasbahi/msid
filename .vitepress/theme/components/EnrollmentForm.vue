@@ -7,7 +7,7 @@
       class="enrollment-form"
     >
         <!-- FormSubmit.co Configuration -->
-        <input type="hidden" name="_subject" value="MSID School New Contact">
+        <input type="hidden" name="_subject" value="Msid School New Contact">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" :value="successUrl">
@@ -427,7 +427,7 @@ const handleSubmit = (event) => {
   background-color: var(--vp-c-brand);
   color: white;
   padding: 0.85rem 2.5rem;
-  border: 2px solid transparent;
+  border: 2px solid var(--vp-c-brand-dark);
   border-radius: 8px;
   font-size: 1.1rem;
   font-weight: 600;

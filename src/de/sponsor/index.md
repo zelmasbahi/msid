@@ -9,7 +9,7 @@ sidebar: false
 
 ## 💶 1. Flexibler Plan
 
-### **8€ pro Stunde**
+### **8€ pro Unterrichtsstunde**
 
 Zahlen Sie nur für die Zeit, die Sie lernen — ideal für Schüler mit unregelmäßigen Zeitplänen.
 
@@ -17,6 +17,7 @@ Zahlen Sie nur für die Zeit, die Sie lernen — ideal für Schüler mit unregel
 - ✅ Vollständige Terminflexibilität
 - ✅ Keine monatlichen Verpflichtungen
 - ✅ Zahlung nach Nutzung
+- ✅ Jede Unterrichtsstunde = 1 Stunde + 10 Minuten Pause
 - ✅ Perfekt für Anfänger oder bei vollen Terminkalendern
 
 ## 📅 2. Monatsplan
@@ -53,11 +54,11 @@ Die beste Wahl für schnelle Lerner und schnelle Verbesserung!
 
 ## 📊 Planvergleich
 
-| Plan | Preis | Stunden | Stunden/Woche | Ersparnis |
+| Plan | Preis | Unterrichtsstunden | Stunden/Woche | Ersparnis |
 |------|-------|---------|---------------|-----------|
-| **Flexibel** | 8€/Stunde | Nach Bedarf | Flexibel | - |
-| **Monatlich** | 60€/Monat | 8 Stunden | 2 Stunden | Sparen Sie 4€/Monat |
-| **Intensiv** | 100€/Monat | 16 Stunden | 4 Stunden | Sparen Sie 28€/Monat! |
+| **Flexibel** | 8€/Unterrichtsstunde | Nach Bedarf | Flexibel | - |
+| **Monatlich** | 60€/Monat | 8 Unterrichtsstunden | 2 Stunden | Sparen Sie 4€/Monat |
+| **Intensiv** | 100€/Monat | 16 Unterrichtsstunden | 4 Stunden | Sparen Sie 28€/Monat! |
 
 ## ✨ Was ist in jedem Plan enthalten
 
@@ -99,7 +100,7 @@ Ja! Sie können jederzeit zwischen Plänen wechseln.
 
 ### Was passiert, wenn ich eine Stunde verpasse?
 
-Sie können mit 24-stündiger Vorankündigung umplanen.
+Sie können mit Vorankündigung umplanen.
 
 ### Gibt es zusätzliche Gebühren?
 
@@ -109,7 +110,7 @@ Nein, die Preise beinhalten alles.
 
 Ja! Kostenlose 30-minütige Probestunde für alle.
 
-## 🌟 Warum MSID Online wählen?
+## 🌟 Warum Msid Online wählen?
 
 - **Hervorragende Lehrer** - Experten in der Online-Bildung
 - **Vollständige Flexibilität** - Lernen Sie zu Ihrer bequemen Zeit

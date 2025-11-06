@@ -4,12 +4,12 @@
   <!-- Hero Section -->
   <section id="hero" dir="rtl">
     <div class="logo-container">
-      <img src="/msid-logo.jpg" alt="MSID Online Logo" class="msid-logo" />
+      <img src="/msid-logo.jpg" alt="Msid Online Logo" class="msid-logo" />
     </div>
     <h1 class="tagline">
       <span class="title-with-en accent">
         <span class="main-title">المسيد عن بعد</span>
-        <span class="title-en-inline" dir="ltr">MSID online </span>
+        <span class="title-en-inline" dir="ltr">Msid online </span>
       </span>
       <br />
       <span class="accent">حصن الطفل المسلم</span>

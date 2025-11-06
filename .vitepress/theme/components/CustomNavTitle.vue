@@ -5,10 +5,10 @@
   <div class="custom-nav-title">
     <img 
       src="/msid-logo.jpg" 
-      alt="MSID Logo"
+      alt="Msid Logo"
       class="nav-logo"
     />
-    <span class="nav-text">MSID Online المسيد</span>
+    <span class="nav-text">Msid Online المسيد</span>
   </div>
 </template>
 

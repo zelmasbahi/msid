@@ -9,7 +9,7 @@ sidebar: false
 
 ## 💶 1. Flexible Plan
 
-### **€8 per hour**
+### **€8 per class**
 
 Pay only for the time you study — ideal for students with irregular schedules.
 
@@ -18,6 +18,7 @@ Pay only for the time you study — ideal for students with irregular schedules.
 - ✅ Complete scheduling flexibility
 - ✅ No monthly commitments
 - ✅ Pay-as-you-go
+- ✅ Each class = 1 hour + 10-minute break
 - ✅ Perfect for beginners or busy schedules
 
 ## 📅 2. Monthly Plan
@@ -56,11 +57,11 @@ Best choice for fast learners and quick improvement!
 
 ## 📊 Plan Comparison
 
-| Plan          | Price      | Hours     | Classes/Week | Savings         |
+| Plan          | Price      | Classes   | Classes/Week | Savings         |
 | ------------- | ---------- | --------- | ------------ | --------------- |
-| **Flexible**  | €8/hour    | As needed | Flexible     | -               |
-| **Monthly**   | €60/month  | 8 hours   | 2 classes    | Save €4/month   |
-| **Intensive** | €100/month | 16 hours  | 4 classes    | Save €28/month! |
+| **Flexible**  | €8/class   | As needed | Flexible     | -               |
+| **Monthly**   | €60/month  | 8 classes | 2 classes    | Save €4/month   |
+| **Intensive** | €100/month | 16 classes| 4 classes    | Save €28/month! |
 
 ## ✨ What's Included in Every Plan
 
@@ -102,7 +103,7 @@ Yes! You can change between plans anytime.
 
 ### What if I miss a class?
 
-You can reschedule with 24-hour notice.
+You can reschedule with advance notice.
 
 ### Are there any additional fees?
 
@@ -112,7 +113,7 @@ No, prices include everything.
 
 Yes! Free 30-minute trial class for everyone.
 
-## 🌟 Why Choose MSID Online?
+## 🌟 Why Choose Msid Online?
 
 - **Outstanding teachers** - Experts in online education
 - **Complete flexibility** - Learn at your convenient time

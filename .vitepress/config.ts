@@ -59,7 +59,7 @@ const navDe: ThemeConfig['nav'] = [
     link: 'https://wa.me/212779164257'
   },
   {
-    text: 'MSID',
+    text: 'Msid',
     link: '/de/'
   },
   {
@@ -107,7 +107,7 @@ const navEn: ThemeConfig['nav'] = [
     link: 'https://wa.me/212779164257'
   },
   {
-    text: 'MSID',
+    text: 'Msid',
     link: '/en/'
   },
   {
@@ -167,13 +167,13 @@ export default defineConfigWithTheme<ThemeConfig>({
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { property: 'og:url', content: 'http://msid.ma/' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'MSID online' }],
+    ['meta', { property: 'og:title', content: 'Msid online' }],
     ['meta', { property: 'og:image', content: '/msid-logo.jpg' }],
     [
       'meta',
       {
         property: 'og:description',
-        content: 'MSID online المسيد عن بعد'
+        content: 'Msid online المسيد عن بعد'
       }
     ],
     ['meta', { name: 'twitter:site', content: '@msidonline' }],
@@ -187,12 +187,12 @@ export default defineConfigWithTheme<ThemeConfig>({
       label: 'العربية',
       lang: 'ar',
       dir: 'rtl',
-      title: 'MSID online المسيد عن بعد',
-      description: 'MSID online المسيد عن بعد',
+      title: 'Msid online المسيد عن بعد',
+      description: 'Msid online المسيد عن بعد',
       themeConfig: {
         // logo: {
         //   src: '/msid-logo.jpg',
-        //   alt: 'MSID Logo'
+        //   alt: 'Msid Logo'
         // },
         nav: navAr,
         socialLinks: [
@@ -203,22 +203,22 @@ export default defineConfigWithTheme<ThemeConfig>({
         ],
         footer: {
           license: {
-            text: 'MSID Online School',
+            text: 'Msid Online School',
             link: 'https://msid.ma'
           },
-          copyright: `حقوق المؤلف © 2025 MSID Online School`
+          copyright: `حقوق المؤلف © 2025 Msid Online School`
         }
       }
     },
     en: {
       label: 'English',
       lang: 'en-US',
-      title: 'MSID Online School',
+      title: 'Msid Online School',
       description: 'Preserving Identity Through Education',
       themeConfig: {
         // logo: {
         //   src: '/msid-logo.jpg',
-        //   alt: 'MSID Logo'
+        //   alt: 'Msid Logo'
         // },
         nav: navEn,
         socialLinks: [
@@ -229,17 +229,17 @@ export default defineConfigWithTheme<ThemeConfig>({
         ],
         footer: {
           license: {
-            text: 'MSID Online School',
+            text: 'Msid Online School',
             link: 'https://msid.ma'
           },
-          copyright: `Copyright © 2025 MSID Online School`
+          copyright: `Copyright © 2025 Msid Online School`
         }
       }
     },
     de: {
       label: 'Deutsch',
       lang: 'de-DE',
-      title: 'MSID Online Schule',
+      title: 'Msid Online Schule',
       description: 'Identität durch Bildung bewahren',
       themeConfig: {
         nav: navDe,
@@ -251,10 +251,10 @@ export default defineConfigWithTheme<ThemeConfig>({
         ],
         footer: {
           license: {
-            text: 'MSID Online Schule',
+            text: 'Msid Online Schule',
             link: 'https://msid.ma'
           },
-          copyright: `Copyright © 2025 MSID Online Schule`
+          copyright: `Copyright © 2025 Msid Online Schule`
         }
       }
     }

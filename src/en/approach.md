@@ -6,7 +6,7 @@ title: Our Approach
 
 ## Effective Learning = Traditional Wisdom + Modern Innovation
 
-At MSID Online, we believe that effective learning happens when traditional wisdom meets modern innovation. Our teaching methodology is built on **four core pillars**:
+At Msid Online, we believe that effective learning happens when traditional wisdom meets modern innovation. Our teaching methodology is built on **four core pillars**:
 
 ---
 
@@ -40,10 +40,9 @@ We design for each learner:
 ### Expertise + Passion + Understanding
 
 #### Teacher Selection Criteria
-Our carefully selected teachers excel in:
+Our teachers excel in:
 
 **Academic Competence:**
-- Ijazah in Quran recitation
 - University degrees in Arabic language
 - Experience in online teaching
 - Mastery of modern teaching methods
@@ -78,7 +77,6 @@ While preserving:
 - Effective traditional teaching methods
 - Memorization through repetition and review
 - Direct instruction from teacher
-- Ijazah chains in Quran
 
 #### The Perfect Balance
 ✨ Technology that facilitates learning  
@@ -134,5 +132,5 @@ When we combine all these elements together:
 ::: tip Try Our Methodology Yourself
 **Book a free trial session** and experience our teaching quality!
 
-[Book Now →](/en/about/faq)
+[Book Now →](/en/enroll)
 :::
